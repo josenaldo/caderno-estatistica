@@ -1,6 +1,6 @@
-# Introdução - Parte 1 - Probabilidade e estatísticas | Aula 1
+# Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
 
-[![Introdução - Parte 1 - Probabilidade e estatísticas - Aula 1](https://img.youtube.com/vi/MG2C67NTjBk/0.jpg)](https://www.youtube.com/watch?v=MG2C67NTjBk)
+[![Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3](https://img.youtube.com/vi/MG2C67NTjBk/0.jpg)](https://www.youtube.com/watch?v=MG2C67NTjBk)
 
 ## Probabilidade
 
