@@ -94,3 +94,6 @@ Para calcular a probabilidade de um evento complexo, nós calculamos a probabili
 ## O que é probabilidade?
 
 > Medida da informação ou crença sobre a ocorrência de um evento
+
+---
+[$\blacktriangleleft$ Aula Anterior](aula-03.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-05.md)

@@ -48,3 +48,6 @@ O evento $\bar A$ (complementar) é formado pelos resultados que não pertencem 
 Quando dois eventos $A$ e $B$ ($A \cap B = \varnothing$) não possuirem nenhum resultado em comum, significa que esses eventos são mutualmente exclusivos. OU seja: quando um acontece, o outro não pode acontecer.
 
 ![Eventos Mutualmente Excludentes](images/aula-01/evento-excludente.gif)
+
+---
+[$\blacktriangleleft$ Aula Anterior](README.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-04.md)
