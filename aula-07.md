@@ -45,10 +45,22 @@ $S = 16$
 |          |        | **KKCK** |         |          |
 |          |        | **KCCK** |         |          |
 
-$m = 8$ resultados favoráveis ao evento A
+$m = 8$ resultados favoráveis ao evento A (em negrito)
 $n = 16$ ewsultados possíveis
 
 $P(A) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
+
+### 2. Saírem exatamente 3 caras
+
+| 0 Caras | 1 Cara | 2 Caras | 3 caras  | 4 Caras |
+| :-----: | :----: | :-----: | :------: | :-----: |
+|  KKKK   |  CKKK  |  CCKK   | **CCCK** |  CCCC   |
+|         |  KCKK  |  CKCK   | **CCKC** |         |
+|         |  KKCK  |  CKKC   | **CKCC** |         |
+|         |  KKKC  |  KCKC   | **KCCC** |         |
+|         |        |  KKCK   |          |         |
+|         |        |  KCCK   |          |         |
+
 
 
 
