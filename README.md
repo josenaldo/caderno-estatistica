@@ -6,6 +6,7 @@ Este curso está disponível no [Youtube](https://www.youtube.com/playlist?list=
 * [Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4](aula-04.md)
 * [Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5](aula-05.md)
 * [Probabilidade em espaços discretos - Parte 4 - Probabilidade e Estatística | Aula 6](aula-06.md)
+* [Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](aula-07.md)
   
 ## Links úteis
 
