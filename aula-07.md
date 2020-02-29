@@ -17,9 +17,9 @@ Serão lançadas 4 moedas, honestas, sucessivamente. Calcule as seguintes probab
 
 Temos, inicialmente, os seguintes eventos elementares:
 
-$A$ = Sair um número par de caras
-$B$ = Saírem exatamente 3 caras
-$C$ = Saírem pelo menos 2 caras consecutivas
+>$A$ = Sair um número par de caras
+>$B$ = Saírem exatamente 3 caras
+>$C$ = Saírem pelo menos 2 caras consecutivas
 
 E o seguinte espaço amostral $S$
 
@@ -32,7 +32,7 @@ E o seguinte espaço amostral $S$
 |         |        |  KKCC   |         |         |
 |         |        |  KCCK   |         |         |
 
-$S = 16$
+>$S = 16$
 
 ### 1. Sair um número par de caras
 
@@ -45,10 +45,11 @@ $S = 16$
 |          |        | **KKCC** |         |          |
 |          |        | **KCCK** |         |          |
 
-$m = 8$ resultados favoráveis ao evento A (em negrito)
-$n = 16$ ewsultados possíveis
-
-$P(A) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
+>$m = 8$ resultados favoráveis ao evento A (em negrito)
+>
+>$n = 16$ resultados possíveis
+>
+>$P(A) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
 
 ### 2. Saírem exatamente 3 caras
 
@@ -61,10 +62,11 @@ $P(A) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
 |         |        |  KKCC   |          |         |
 |         |        |  KCCK   |          |         |
 
-$m = 4$ resultados favoráveis ao evento B (em negrito)
-$n = 16$ resultados possíveis
-
-$P(B) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
+>$m = 4$ resultados favoráveis ao evento B (em negrito)
+>
+>$n = 16$ resultados possíveis
+>
+>$P(B) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
 
 ### 3. Saírem exatamente 3 caras ou um número par de caras
 
@@ -77,14 +79,14 @@ $P(B) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
 |         |        | **KKCC** |          |         |
 |         |        |  *KCCK*  |          |         |
 
-$m = 4 + 8 = 12$
-
-* 4 resultados favoráveis ao evento B (em negrito)
-* 8 resultados favoráveis ao evento A (em itálico)
-
-$n = 16$ resultados possíveis
-
-$P(A \cup B) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
+>$m = 4 + 8 = 12$
+>
+>* 4 resultados favoráveis ao evento B (em negrito)
+>* 8 resultados favoráveis ao evento A (em itálico)
+>
+>$n = 16$ resultados possíveis
+>
+>$P(A \cup B) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
 
 ### 4. Saírem exatamente 3 caras e haver pelo menos 2 caras consecutivas
 
@@ -97,15 +99,15 @@ $P(A \cup B) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
 |         |        | *KKCC*  |            |         |
 |         |        | *KCCK*  |            |         |
 
-$m = 4$
-
-* 4 resultados favoráveis ao evento B (em negrito)
-* 8 resultados favoráveis ao evento C (em itálico), mas apenas 4 desses também são favoráveis ao evento B
-* Portanto, 4 eventos favoráveis aos eventos B e C
-
-$n = 16$ resultados possíveis
-
-$P(B \cap C) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
+>$m = 4$
+>
+>* 4 resultados favoráveis ao evento B (em negrito)
+>* 8 resultados favoráveis ao evento C (em itálico), mas apenas 4 desses também são favoráveis ao evento B
+>* Portanto, 4 eventos favoráveis aos eventos B e C
+>
+>$n = 16$ resultados possíveis
+>
+>$P(B \cap C) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
 
 ### 5. Saírem pelo menos 2 caras consecutivas
 
@@ -118,10 +120,11 @@ $P(B \cap C) = \frac{m}{n} = \frac{4}{16} = \frac{1}{4} = 25\%$
 |         |        | **KKCC** |          |          |
 |         |        | **KCCK** |          |          |
 
-$m = 8 resultados favoráveis ao evento C (em negrito)$
-$n = 16$ resultados possíveis
-
-$P(C) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
+>$m = 8 resultados favoráveis ao evento C (em negrito)$
+>
+>$n = 16$ resultados possíveis
+>
+>$P(C) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
 
 ### 6. Não ocorrer o evento "número par de caras e pelo menos 2 caras consecutivas
 
@@ -134,9 +137,11 @@ $P(C) = \frac{m}{n} = \frac{8}{16} = \frac{1}{2} = 50\%$
 |         |        | ***KKCC*** |          |            |
 |         |        | ***KCCK*** |          |            |
 
-$P(A) = 8 resultados favoráveis ao evento A (em itálico)$
-$P(C) = 8 resultados favoráveis ao evento C (em negrito)$
-$n = 16$ resultados possíveis
+>$P(A) = 8$ resultados favoráveis ao evento A (em itálico)
+>
+>$P(C) = 8$ resultados favoráveis ao evento C (em negrito)
+>
+>$n = 16$ resultados possíveis
 
 | 0 Caras | 1 Cara |  2 Caras   | 3 caras |  4 Caras   |
 | :-----: | :----: | :--------: | :-----: | :--------: |
@@ -147,11 +152,11 @@ $n = 16$ resultados possíveis
 |         |        | ***KKCC*** |         |            |
 |         |        | ***KCCK*** |         |            |
 
-$P(A \cap C) = 4$ resultados favoráveis ao evento A intersecção C (em negrito e itálico)$
-
-$P(C) = 12$ resultados não favoráveis ao evento A intersecção C (sem destaque)
-
-$P(\overline{A \cap C}) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
+>$P(A \cap C) = 4$ resultados favoráveis ao evento A intersecção C (em >negrito e itálico)$
+>
+>$P(C) = 12$ resultados não favoráveis ao evento A intersecção C (sem >destaque)
+>
+>$P(\overline{A \cap C}) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
 
 ---
 [$\blacktriangleleft$ Aula Anterior](aula-06.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-08.md)
