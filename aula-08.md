@@ -6,6 +6,9 @@
 
 ## Probabilidade condicionada
 
+## Teorema da Intersecção
+
+## Eventos Independentes
 
 
 
@@ -13,5 +16,6 @@
 
 [$\blacktriangleleft$ Aula Anterior](aula-07.md) \| [Início](README.md) \| [Próxima Aula $\blacktriangleright$](aula-09.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NTk3Njg2LC0yMTQ0OTMyMDUyXX0=
+eyJoaXN0b3J5IjpbLTEyMDk4NTgyODIsLTIxNDQ5MzIwNTJdfQ
+==
 -->
