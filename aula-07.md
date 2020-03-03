@@ -1,6 +1,6 @@
 # Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7
 
-[![Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](https://img.youtube.com/vi/OKjhP3cxOhk/0.jpg)](https://www.youtube.com/watch?v=OKjhP3cxOhk)
+![Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](https://img.youtube.com/vi/OKjhP3cxOhk/0.jpg)](https://www.youtube.com/watch?v=OKjhP3cxOhk)
 
 ## Lançamentos de moedas
 
@@ -160,3 +160,6 @@ E o seguinte espaço amostral $S$
 
 ---
 [$\blacktriangleleft$ Aula Anterior](aula-06.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-08.md)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTUwMzU4MDkxXX0=
+-->
