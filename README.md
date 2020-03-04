@@ -33,6 +33,7 @@ Para visualizar essas anotações, pode-se usar dois métodos:
 2. Baixar este repositório (download ou clone) e abrir as anotações em um visualizador de markdown com suporte a Latex. Exemplos:
    * Plugin [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced), para o VS Code
    * Extensão [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl), para Chrome.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU1MDUyNDZdfQ==
--->
+
+## Referências
+
+* [http://www.matematicadidatica.com.br/ProbabilidadeConceitos.asp](http://www.matematicadidatica.com.br/ProbabilidadeConceitos.asp)
