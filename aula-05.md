@@ -11,4 +11,4 @@ A namorada de pedro não fica mais do que 100 minutos sem mandar uma mensagem.
 Supondo que esse seja o intervalo máximo ntre as mensagens, qual seria a probabilidade dele receber a resposta da namorada, a tempo de se beneficiar com a promoção (entre 5 e 10 minutos)?
 
 ---
-[&#9664; Aula Anterior](aula-04.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-06.md)
+[&#9668; Aula Anterior](aula-04.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-06.md)

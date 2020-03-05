@@ -18,4 +18,4 @@ Considerando que todos os eventos são independentes e equiprováveis, calcule:
 4. A chance de aertar a quina.
 
 ---
-[&#9664; Aula Anterior](aula-08.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-10.md)
+[&#9668; Aula Anterior](aula-08.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-10.md)

@@ -96,4 +96,4 @@ Para calcular a probabilidade de um evento complexo, nós calculamos a probabili
 > Medida da informação ou crença sobre a ocorrência de um evento
 
 ---
-[&#9664; Aula Anterior](aula-03.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-05.md)
+[&#9668; Aula Anterior](aula-03.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-05.md)

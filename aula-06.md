@@ -24,4 +24,4 @@ A fórmula de cálculo da probabilidade, de acordo coma a definição clássica 
 Ou seja a probabilidade dela ligar é de 5% de chance.
 
 ---
-[&#9664; Aula Anterior](aula-05.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-07.md)
+[&#9668; Aula Anterior](aula-05.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-07.md)

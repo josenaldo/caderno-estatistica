@@ -94,4 +94,4 @@ Generealizando para K eventos:
 >$P(A \cap B \cap ... \cap K) = P(A) . P(B) . ... . P(K)$
 ---
 
-[&#9664; Aula Anterior](aula-07.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-09.md)
+[&#9668; Aula Anterior](aula-07.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-09.md)
