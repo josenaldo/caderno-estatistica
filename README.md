@@ -6,11 +6,15 @@ Essas anotações são baseadas nas aulas do curso e em futuras leituras. Se tiv
 
 **Aulas:**>)
 
-* [Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3](aula-03.md)
-* [Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4](aula-04.md)
-* [Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5](aula-05.md)
-* [Probabilidade em espaços discretos - Parte 4 - Probabilidade e Estatística | Aula 6](aula-06.md)
-* [Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](aula-07.md)
+* Probabilidade em espaços discretos
+  * [Parte 1 | Aula 3](aula-03.md)
+  * [Parte 2 | Aula 4](aula-04.md)
+  * [Parte 3 | Aula 5](aula-05.md)
+  * [Parte 4 | Aula 6](aula-06.md)
+  * [Parte 5 | Aula 7](aula-07.md)
+* Teoremas de probabilidade
+  * [Parte 1 | Aula 8](aula-08.md)
+  * [Parte 2 | Aula 9](aula-09.md)
   
 ## Links úteis
 
