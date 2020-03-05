@@ -159,7 +159,7 @@ E o seguinte espaço amostral $S$
 >$P(\overline{A \cap C}) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
 
 ---
-[$\blacktriangleleft$ Aula Anterior](aula-06.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-08.md)
+[&#9664; Aula Anterior](aula-06.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-08.md)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjk0NTIzOTc2LDk1MDM1ODA5MV19
 -->

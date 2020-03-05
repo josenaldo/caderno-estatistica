@@ -92,4 +92,4 @@ Quando dois eventos $A$ e $B$ ($A \cap B = \varnothing$) não possuirem nenhum r
 ![Eventos Mutualmente Excludentes](images/aula-01/evento-excludente.gif)
 
 ---
-[$\blacktriangleleft$ Aula Anterior](README.md) | [Início](README.md) | [Próxima Aula $\blacktriangleright$](aula-04.md)
+[&#9664; Aula Anterior](README.md) | [Início](README.md) | [Próxima Aula&#9654;](aula-04.md)
