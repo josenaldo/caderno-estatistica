@@ -19,17 +19,17 @@ A relação de todos os resultados possíveis de um experimento é o **espaço a
 
 No caso da moeda representamos o seu espaço amostral por:
 
-$S = \{ cara, coroa \}$
+> $S = \{ cara, coroa \}$
 
 Se novamente ao invés de uma moeda, o objeto a ser lançado for um dado, o espaço amostral será:
 
-$S = \{ 1, 2, 3, 4, 5, 6 \}$
+> $S = \{ 1, 2, 3, 4, 5, 6 \}$
 
 ## Eventos
 
 Quando lançamos um dado ou uma moeda, chamamos a ocorrência deste fato de evento., Ou seja, um subconjunto do espaço amostral é um **evento**. Pode ser constituído por um ou mais resultados.
 
-$A = \{ 2, 3, 5 \}$
+> $A = \{ 2, 3, 5 \}$
 
 Note que $A \subset S$ ($A$ está contido em $S$, $A$ é um subconjunto de $S$). O conjunto $A$ é a representação do evento do lançamento de um dado, quando temos a face para cima igual a um número primo.
 
@@ -47,7 +47,7 @@ $A = \{ 5 \}$ é a representação de um evento simples do lançamento de um dad
 
 Ao lançarmos um dado é certo que a face que ficará para cima, terá um número divisor de 720. Este é um evento certo, pois:
 
->$720 = 6! = 6 \times 5 \times 4 \times 3 \times 2 \times 1$,
+> $720 = 6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$,
 
 Obviamente qualquer um dos números da face de um dado é um divisor de 720, pois 720 é o produto de todos eles.
 

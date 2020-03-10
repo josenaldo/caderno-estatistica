@@ -14,7 +14,7 @@ O que é probabilidade?
 
 #### Definição Clássica
 
->$p=\frac{m}{n}$
+> $p=\frac{m}{n}$
 
 **Onde:**
 > p = probabilidade
@@ -29,7 +29,7 @@ Desde que todos os casos possíveis sejam igualmente favoráveis.
 
 Em uma cartela de rifa existem de 100 nomes. Armengado compra 5 desses nomes. A probabilidade de armengado ganhar o prêmio é calculada em:
 
->$p=\frac{5}{100}=5\%$
+> $p=\frac{5}{100}=5\%$
 
 Ou seja: 5 casos favoráveis em 100 casos possíveis.
 
@@ -39,7 +39,7 @@ A definição Frequência Lista define a probabilidade usando o histórico do qu
 
 > Probabilidade = limite da frequência relativa
 >
->$\lim_{n \to \infty} \frac{m}{n}$
+> $\lim_{n \to \infty} \frac{m}{n}$
 
 **Onde:**
 

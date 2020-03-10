@@ -14,7 +14,7 @@ O evento complementar é a não ocorrência do evento.
 
 A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade do evento considerado.
 
->$P(\bar A) = 1 - P(A)$
+> $P(\bar A) = 1 - P(A)$
 
 **Exemplo:** Se a probabilidade de um aluno não passar de ano é $P(A) = 0,7$, então a probabilidade dele não passar será $P(\bar A) = 1 - 0,7 = 0,3$.
 
@@ -26,11 +26,11 @@ A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade
 
 Se os eventos $A$ e $B$ forem mutualmente excludentes, ao cálculo do evento união, é feito simplesmente pela soma das probabilidade dos eventos. Ou seja:
 
->Se $P(A \cap B) = 0,$ então $P(A \cup B) = P(A) + P(B) $
+> Se $P(A \cap B) = 0,$ então $P(A \cup B) = P(A) + P(B) $
 
 Para o caso de 3 eventos, temos:
 
->$P (A \cup B \cup C) = P(A) + P(B) +P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$
+> $P (A \cup B \cup C) = P(A) + P(B) +P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$
 
 ## Probabilidade condicionada
 
@@ -43,11 +43,11 @@ Essa probabilidade condicional irá formar um novo espaço amostral, pois agora 
 Para calcular a probabilidade P(B | A) deve-se seguir o mesmo raciocínio da fórmula $P(A) = \frac{n(A)}{n(S)}$
 portanto:
 
->$P(B | A) = \frac{n(B \cap A)}{n(A)}$ ou $P(B | A) = \frac{P(B \cap A)}{P(A)}$
+> $P(B | A) = \frac{n(B \cap A)}{n(A)}$ ou $P(B | A) = \frac{P(B \cap A)}{P(A)}$
 
 Sendo que:
 
->$P(B \cap A) = P(A) . P(B)$
+> $P(B \cap A) = P(A) \cdot P(B)$
 
 **Exemplo:**
 
@@ -67,19 +67,19 @@ Pelo caso acima podemos concluir que o papel da **nova informação** é **reduz
 
 ![Teorema do Produto](images/aula-08/teorema-do-produto.gif)
 
->$P(A \cap B) = P(A) . P(B | A)$ ou $P(B \cap A) = P(B) . P(A | B)$
+> $P(A \cap B) = P(A) \cdot P(B | A)$ ou $P(B \cap A) = P(B) \cdot P(A | B)$
 
 Ou seja, para que aconteça $A \cap B$, é necessário impor que aconteça $A$ e depois é necessário impor que conteça $B$, dado que o eventyo $A$ já tenha acontecido.
 
 ### Generalização para 3 eventos
 
->$P(A \cap B \cap C) = P(B) . P(B | A) . P(C | A \cap B)$
+> $P(A \cap B \cap C) = P(B) \cdot P(B | A) \cdot P(C | A \cap B)$
 
 ## Eventos Independentes
 
 Dois eventos são chamados independentes quando a probabilidde de acontecer um dado que aconteceu outro, é igual à probabilidade sem informação nenhuma. Ou seja:
 
->$P(A | B) = P(A)$
+> $P(A | B) = P(A)$
 
 Portanto, a informação sobre o evento $B$ não altera a probabilidade de ocorrência de $A$.
 
@@ -87,11 +87,11 @@ Portanto, a informação sobre o evento $B$ não altera a probabilidade de ocorr
 
 No caso especial de eventos independentes, o teorema do produto para dois eventos é:
 
->$P(A \cap B) = P(A) . P(B)$
+> $P(A \cap B) = P(A) \cdot P(B)$
 
 Generealizando para K eventos:
 
->$P(A \cap B \cap ... \cap K) = P(A) . P(B) . ... . P(K)$
+> $P(A \cap B \cap ... \cap K) = P(A) \cdot P(B) \cdot ... \cdot P(K)$
 ---
 
 [&#9668; Aula Anterior](aula-07.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-09.md)
