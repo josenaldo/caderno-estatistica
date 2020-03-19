@@ -1,6 +1,10 @@
-# Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
-
-[![Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3](https://img.youtube.com/vi/MG2C67NTjBk/0.jpg)](https://www.youtube.com/watch?v=MG2C67NTjBk)
+---
+title: Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
+video: MG2C67NTjBk
+previous: index.md
+next: aula-04.md
+permalink: aulas/aula-03/
+---
 
 ## Probabilidade
 
@@ -65,7 +69,7 @@ Seja $A = \{ 1, 3 \}$ o evento de ocorrência da face superior no lançamento de
 
 Note que o evento C contém todos os elementos de A e B.
 
-![Evento união](images/aula-01/evento-uniao.gif)
+![Evento união]({{site.baseurl}}/assets/images/aula-01/evento-uniao.gif)
 
 ### Evento Intersecção
 
@@ -73,7 +77,7 @@ Seja $A = \{ 2, 4 \}$ o evento de ocorrência da face superior no lançamento de
 
 Veja que o evento C contém apenas os elementos comuns a A e B.
 
-![Evento - Intersecao](images/aula-01/evento-intersecao.gif)
+![Evento - Intersecao]({{site.baseurl}}/assets/images/aula-01/evento-intersecao.gif)
 
 ### Complementar
 
@@ -81,7 +85,7 @@ Seja $A = \{ 1, 3, 5 \}$ o evento de ocorrência da face superior no lançamento
 
 Os elementos de $\bar A$ são todos os elementos do espaço amostral $S$ que não estão contidos em $A$ (não pertencem ao evento considerado), então temos que $\bar A = S - A$ e ainda que $S = A + \bar A$. ou seja, o evento complementar significa a **não ocorrência** do evento considerado.
 
-![Evento - Complementar](images/aula-01/evento-complementar.gif)
+![Evento - Complementar]({{site.baseurl}}/assets/images/aula-01/evento-complementar.gif)
 
 ## Eventos mutuamente excludentes
 
@@ -89,7 +93,4 @@ Seja $A = \{ 1, 2, 3, 6 \}$ o evento de ocorrência da face superior no lançame
 
 Quando dois eventos $A$ e $B$ ($A \cap B = \varnothing$) não possuirem nenhum resultado em comum, significa que esses eventos são mutualmente exclusivos. OU seja: quando um acontece, o outro não pode acontecer.
 
-![Eventos Mutualmente Excludentes](images/aula-01/evento-excludente.gif)
-
----
-[&#9668; Aula Anterior](README.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-04.md)
+![Eventos Mutualmente Excludentes]({{site.baseurl}}/assets/images/aula-01/evento-excludente.gif)

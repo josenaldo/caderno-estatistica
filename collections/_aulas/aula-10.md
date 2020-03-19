@@ -1,4 +1,11 @@
+---
+title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
+video: 9jAxVU8VcoQ
+previous: aula-03.md
+next: aula-05.md
+---
 # Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
+
 
 [![Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10](https://img.youtube.com/vi/NYfDVDvYuwQ/0.jpg)](https://www.youtube.com/watch?v=NYfDVDvYuwQ)
 

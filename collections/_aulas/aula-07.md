@@ -1,3 +1,10 @@
+---
+title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
+video: 9jAxVU8VcoQ
+previous: aula-03.md
+next: aula-05.md
+---
+
 # Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7
 [
 ![Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](https://img.youtube.com/vi/OKjhP3cxOhk/0.jpg)](https://www.youtube.com/watch?v=OKjhP3cxOhk)

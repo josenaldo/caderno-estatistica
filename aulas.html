@@ -1,0 +1,13 @@
+---
+layout: page
+title: Aulas
+icon: "fas fa-chalkboard-teacher"
+---
+
+<ul>
+    {% for aula in site.aulas %}
+      <li>
+          <a href="{{site.baseurl}}{{ aula.url }}">{{ aula.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>

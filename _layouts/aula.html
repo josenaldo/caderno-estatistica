@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="w3-container w3-card w3-white w3-margin-bottom">
+
+    <h1 class="w3-text-grey w3-padding-16">        
+        <span class="w3-text-teal">{{page.title}}</span>
+    </h1>
+
+    <div class="w3-container">
+
+        <div class="row">
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/{{page.video}}">
+            </iframe>            
+        </div>
+        
+        <div class="row">
+            {{ content }}
+        </div>
+
+        <div class="nav-aula">
+
+            <ul>
+                <li class="">
+                    <a href="{{site.baseurl}}{{ site.aulas[page.previous].url }} }}/" title="Anterior">
+                        <i class="fas fa-arrow-left"></i> Anterior
+                    </a>
+                </li> 
+                <li class="">
+                    <a href="{{ site.baseurl }}/" title="home">
+                        <i class="fas fa-chalkboard-teacher"></i> Início
+                    </a>
+                </li>			
+                <li class="">
+                    <a href="{{ site.baseurl }}/referencias" title="Referências"> 
+                        Próxima <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      
+    </div>
+    
+</div>  
