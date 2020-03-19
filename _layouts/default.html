@@ -3,22 +3,37 @@
 <!DOCTYPE html>
 <html>
 
-    {% include head.html %}
+{% include head.html %}
 
-    <body>
-      
-    {% include header.html %}
+<body class="w3-light-grey">
 
-    {% include banner.html %}
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+        {% include left.html %}
+        <!-- End Left Column -->
+      </div>
 
 
-    <div class="wrapper">
-      {{ content }}
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        {{ content }}
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
     </div>
-    
-    {% include social.html %}
-    {% include footer.html %}
-    
-    </body>
+
+    <!-- End Page Container -->
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
 </html>
- 
