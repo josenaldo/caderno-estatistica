@@ -1,13 +1,11 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+title: Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5
+video: Q4fH8SNGwdU
+name: aula-05.md
+anterior: aula-04.md
+proximo: aula-06.md
+permalink: aulas/aula-05/
 ---
-
-# Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5
-
-[![Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5](https://img.youtube.com/vi/Q4fH8SNGwdU/0.jpg)](https://www.youtube.com/watch?v=Q4fH8SNGwdU)
 
 ## Caso: Será que vai dar tempo?
 
@@ -16,6 +14,3 @@ Pedro quer aproveitar uma promoção e comprar bilhetes para o cinema, mais bara
 A namorada de pedro não fica mais do que 100 minutos sem mandar uma mensagem.
 
 Supondo que esse seja o intervalo máximo ntre as mensagens, qual seria a probabilidade dele receber a resposta da namorada, a tempo de se beneficiar com a promoção (entre 5 e 10 minutos)?
-
----
-[&#9668; Aula Anterior](aula-04.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-06.md)

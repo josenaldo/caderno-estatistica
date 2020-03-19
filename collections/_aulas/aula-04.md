@@ -1,8 +1,10 @@
 ---
 title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
 video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+name: aula-04.md
+anterior: aula-03.md
+proximo: aula-05.md
+permalink: aulas/aula-04/
 ---
 
 ## Probabilidade
@@ -98,5 +100,3 @@ Para calcular a probabilidade de um evento complexo, nós calculamos a probabili
 
 > Medida da informação ou crença sobre a ocorrência de um evento
 
----
-[&#9668; Aula Anterior](aula-03.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-05.md)

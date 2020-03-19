@@ -36,6 +36,13 @@ google_plus_link: http://josenaldo.github.io/nomesdocapeta/
 stackoverflow_link: http://josenaldo.github.io/nomesdocapeta/
 facebook_link: https://www.facebook.com/josenaldo.matos
 
+# Required by template
+css: "blue-grey"
+scroll-cursor: "#00BCD4"
+scroll-rail: "#0097A7"
+highlighter: null #pygments
+lsi: false
+safe: false
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

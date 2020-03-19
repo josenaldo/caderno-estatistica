@@ -1,14 +1,19 @@
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><i class="fas fa-chart-bar"></i> Probabilidade e Estatística - Anotações</h1>
-			<div id="menu">
-				<ul>
-					<li class="current_page_item"><a href="#" accesskey="1" title="">Home</a></li>
-					<li><a href="/aulas/" accesskey="2" title="Aulas">Aulas</a></li>			
-					<li><a href="#" accesskey="3" title="Referências">Referências</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
+<header class="site-header">
+    <div class="navbar-fixed">
+        <nav class="{{ site.css }} darken-2 waves-effect waves-light">
+            <div class="nav-wrapper">
+               <div class="container">
+                <a internal href="{{ site.baseurl }}/" class="brand-logo"><i class="fas fa-chart-area"></i> {{site.title}}</a>
+                <ul id="nav-mobile" class="right side-nav">
+                    <li><a internal href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a internal href="{{ site.baseurl }}/aulas/">Aulas</a></li>
+                    <li><a internal href="{{ site.baseurl }}/blog/">Novidades</a></li>                    
+					<li><a internal href="{{ site.baseurl }}/referencias/">Referências</a></li>                   
+                </ul>
+                <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+            </div>
+            </div>
+        </nav>
+    </div>
+</header>
+	

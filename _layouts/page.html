@@ -1,16 +1,19 @@
 ---
-layout: default
+ layout: default 
 ---
+<div id="skrollr-body">
+<div class="post">
 
-<div class="w3-container w3-card w3-white w3-margin-bottom">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
 
-    <h2 class="w3-text-grey w3-padding-16">
-        {%if page.icon %}<i class="{{ page.icon }} w3-margin-right w3-xxlarge w3-text-teal"></i>{%endif%}
-        <span class="w3-text-teal">{{page.title}}</span>
-    </h2>
-
-    <div class="w3-container">
-      {{ content }}
-    </div>
-    
-</div>  
+    <article class="post-content">
+        {{ content }}
+    </article>
+    <br/><hr/><br/>
+    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/">Share</button>
+    <button class="{{ site.css }} darken-2 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/">Back Home</button>
+    <br/>&nbsp;
+</div>
+</div>

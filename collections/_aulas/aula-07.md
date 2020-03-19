@@ -1,13 +1,11 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+title: Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7
+video: OKjhP3cxOhk
+name: aula-07.md
+anterior: aula-06.md
+proximo: aula-08.md
+permalink: aulas/aula-07/
 ---
-
-# Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7
-[
-![Probabilidade em espaços discretos - Parte 5 - Probabilidade e Estatística | Aula 7](https://img.youtube.com/vi/OKjhP3cxOhk/0.jpg)](https://www.youtube.com/watch?v=OKjhP3cxOhk)
 
 ## Lançamentos de moedas
 
@@ -165,5 +163,3 @@ E o seguinte espaço amostral $S$
 >
 > $P(\overline{A \cap C}) = \frac{m}{n} = \frac{12}{16} = \frac{3}{4} = 75\%$
 
----
-[&#9668; Aula Anterior](aula-06.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-08.md)

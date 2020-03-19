@@ -25,13 +25,10 @@ docker run --rm -it -v "/d/repositorios/estudo-estatistica:/srv/jekyll" -v "/d/r
 Executa o servidor do jekyll.
 
 ```shell
-jekyll serve --livereload --watch --force-polling
+jekyll serve --watch --force-polling
 ```
 
-Após a execução do `jekyll serve`, verifique, no Kitematic, qual a o IP para acessar o container ou execute, no terminal do host, o comando `docker-machine ip`. O endereço para acesso é http://IP_DO_DOCKER_MACHINE/estudo-estatistica
-
-
-
+Após a execução do `jekyll serve`, verifique, no Kitematic, qual a o IP para acessar o container ou execute, no terminal do host, o comando `docker-machine ip`. O endereço para acesso é [http://IP_DO_DOCKER_MACHINE/estudo-estatistica]([http://IP_DO_DOCKER_MACHINE/estudo-estatistica])
 
 ### Conectando num container que está rodando
 

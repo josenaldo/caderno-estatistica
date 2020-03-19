@@ -1,13 +1,11 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+title: Teoremas de probabilidade - Parte 2 - Probabilidade e Estatística | Aula 9
+video: Vs5wJOtt6pc
+name: aula-09.md
+anterior: aula-08.md
+proximo: aula-10.md
+permalink: aulas/aula-09/
 ---
-
-# Teoremas de probabilidade - Parte 2 - Probabilidade e Estatística | Aula 9
-
-[![Teoremas de probabilidade - Parte 2 - Probabilidade e Estatística | Aula 9](https://img.youtube.com/vi/Vs5wJOtt6pc/0.jpg)](https://www.youtube.com/watch?v=Vs5wJOtt6pc)
 
 ## Exercício proposto
 
@@ -21,8 +19,5 @@ Considerando que todos os eventos são independentes e equiprováveis, calcule:
 
 1. A chance de sair o número 6 já na primeira bola do sorteio.
 2. A chance de sair o número 6 na primeira bola e o 16 na segunda.
-3. A chance de acertar os 6 números. 
+3. A chance de acertar os 6 números.
 4. A chance de aertar a quina.
-
----
-[&#9668; Aula Anterior](aula-08.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-10.md)

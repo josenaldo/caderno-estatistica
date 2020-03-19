@@ -1,11 +1,11 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+title: Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
+video: NYfDVDvYuwQ
+name: aula-10.md
+anterior: aula-09.md
+proximo: aula-11.md
+permalink: aulas/aula-10/
 ---
-# Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
-
 
 [![Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10](https://img.youtube.com/vi/NYfDVDvYuwQ/0.jpg)](https://www.youtube.com/watch?v=NYfDVDvYuwQ)
 
@@ -38,5 +38,3 @@ Para responder essa pergunta, precisamos da fórmula da combinação sem repeti�
 > $P(C) = \frac{1}{50.063.860}$
 ## 4. A chance de aertar a quina
 
----
-[&#9668; Aula Anterior](aula-09.md) | [Início](README.md) | [Próxima Aula &#9658;](aula-11.md)

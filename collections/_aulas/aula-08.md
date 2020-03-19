@@ -1,13 +1,11 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
-previous: aula-03.md
-next: aula-05.md
+title: Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8
+video: fKUsnlSnxpE
+name: aula-08.md
+anterior: aula-07.md
+proximo: aula-09.md
+permalink: aulas/aula-08/
 ---
-
-# Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8
-
-[![Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8](https://img.youtube.com/vi/fKUsnlSnxpE/0.jpg)](https://www.youtube.com/watch?v=fKUsnlSnxpE)
 
 Para calcular a probabilidade de um evento complexo, nós decompomos esse evento em em eventos elementares e calculamos as probabilidades desses eventos elementares. Então, aplicando os teoremas de Probabilidade, a partir das probabilidades elementares, nós usamos as operações com eventos para calcular a probabilidade do evento complexo.
 
@@ -99,6 +97,3 @@ No caso especial de eventos independentes, o teorema do produto para dois evento
 Generealizando para K eventos:
 
 > $P(A \cap B \cap ... \cap K) = P(A) \cdot P(B) \cdot ... \cdot P(K)$
----
-
-[&#9668; Aula Anterior](aula-07.md) | [Início](README.md) | [Próxima Aula&#9658;](aula-09.md)
