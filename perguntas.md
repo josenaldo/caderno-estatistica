@@ -1,8 +1,10 @@
-# Perguntas
-
+---
+layout: page
+title: Perguntas
+---
 ## Aula 08
 
-### Pergunta 01:
+### Pergunta 01
 
 Dado o Teorema da união para o caso de 3 eventos, temos:
 
