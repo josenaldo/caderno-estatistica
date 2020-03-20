@@ -14,7 +14,7 @@ Intervalo máximo entre mensagens = 100 minutos, ou seja, esse é o espaço amos
 
 A fórmula de cálculo da probabilidade, de acordo coma a definição clássica é:
 
-> $p=\frac{m}{n}$
+> $$p=\frac{m}{n}$$
 
 **Onde:**
 > p = probabilidade
@@ -25,6 +25,6 @@ A fórmula de cálculo da probabilidade, de acordo coma a definição clássica 
 
 **Portanto:**
 
-> $P(A) = \frac{10 - 5}{100} = \frac{5}{100} = 0,05 = 5\%$
+> $$P(A) = \frac{10 - 5}{100} = \frac{5}{100} = 0,05 = 5\%$$
 
 Ou seja a probabilidade dela ligar é de 5% de chance.

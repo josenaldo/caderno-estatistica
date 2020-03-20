@@ -16,7 +16,8 @@ No caso da megasena, o espaço amostral é composto por 60 números, de 01 a 60.
 
 ## 1. A chance de sair o número 6 já na primeira bola do sorteio
 
-> $P(A) = \frac{1}{60}$
+> $$P(A) = \frac{1}{60}$$
+> 
 
 ## 2. A chance de sair o número 6 na primeira bola e o 16 na segunda
 
@@ -24,17 +25,18 @@ No primeiro caso, temos 1 chance em 60 de sair a bola 6. Mas, no segundo caso, t
 
 Portanto:
 
-> $P(A \cap B) = \frac{1}{60} . \frac{1}{59} = \frac{1}{3540}$
+> $$P(A \cap B) = \frac{1}{60} . \frac{1}{59} = \frac{1}{3540}$$
 
 ## 3. A chance de acertar os 6 números
 
 Para responder essa pergunta, precisamos da fórmula da combinação sem repetição.
 
-> ${C^{n}_{s}} = {n \choose s} = \frac{n!}{s! \cdot (n - s)!}$
+> $${C^{n}_{s}} = {n \choose s} = \frac{n!}{s! \cdot (n - s)!}$$
 >
-> ${C_{60,6}} = \frac{60!}{6! \cdot (60 - 6)! } = \frac{60!}{6! \cdot 54!} = \frac{60 \cdot 59 \cdot 58 \cdot 57 \cdot 56 \cdot 55 \cdot \sout  54!}{6! \cdot \sout 54!}$
+> $${C_{60,6}} = \frac{60!}{6! \cdot (60 - 6)! } = \frac{60!}{6! \cdot 54!} = \frac{60 \cdot 59 \cdot 58 \cdot 57 \cdot 56 \cdot 55 \cdot \sout  54!}{6! \cdot \sout 54!}$$
 >
-> ${C_{60,6}} \frac{60 \cdot 59 \cdot 58 \cdot 57 \cdot 56 \cdot 55}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 50.063.860$
+> $${C_{60,6}} \frac{60 \cdot 59 \cdot 58 \cdot 57 \cdot 56 \cdot 55}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 50.063.860$$
 >
-> $P(C) = \frac{1}{50.063.860}$
+> $$P(C) = \frac{1}{50.063.860}$$
+> 
 ## 4. A chance de aertar a quina
