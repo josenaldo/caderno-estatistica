@@ -140,7 +140,7 @@ $(function () {
             $el;
 
         // calculate wrapper heights to prevent jumping when loading new content
-        $pageWrap.height($pageWrap.height());
+        //$pageWrap.height($pageWrap.height());
         baseHeight = $pageWrap.height() - $mainContent.height();
 
         function loadContent(href) {

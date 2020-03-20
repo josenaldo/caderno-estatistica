@@ -19,29 +19,32 @@ layout: default
             </iframe>            
         </div>
 
-        
         {{ content }}
         
+        <br/><hr/><br/> 
+
+        <div class="aula-nav center-align">
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/{{ page.previous.url }}">
+                <i class="fas fa-arrow-left"></i> Anterior
+            </a>
         
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/">
+                <i class="fas fa-home"></i> Home
+            </a>
+        
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/{{ page.next.url }}">
+                Próxima <i class="fas fa-arrow-right"></i>  
+            </a>
+        
+        </div>
     </div>
 </div>
 
-<br/><hr/><br/> 
 
-<a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
-    href="{{site.baseurl}}/{{ page.previous.url }}">
-    <i class="fas fa-arrow-left"></i> Anterior
-</a>
 
-<a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
-    href="{{site.baseurl}}/">
-    <i class="fas fa-home"></i> Home
-</a>
-
-<a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
-    href="{{site.baseurl}}/{{ page.next.url }}">
-    Próxima <i class="fas fa-arrow-right"></i>  
-</a>
 
 <br/>&nbsp;
 
