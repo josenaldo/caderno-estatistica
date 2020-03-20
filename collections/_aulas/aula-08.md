@@ -14,7 +14,7 @@ Cada uma das operações com eventos tem a sua correspondência num Teorema da P
 
 ## Teorema do Evento complementar
 
-![Teorema do Evento complementar](images\aula-08\teorema-evento-complementar.png)
+![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png)
 
 O evento complementar é a não ocorrência do evento.
 
@@ -26,7 +26,7 @@ A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade
 
 ## Teorema da União
 
-![Teorema da União](images/aula-08/teorema-da-uniao.png)
+![Teorema da União]({{site.baseurl}}/assets/images/aula-08/teorema-da-uniao.png)
 
 >$$P (A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
@@ -42,14 +42,14 @@ Para o caso de 3 eventos, temos:
 
 Probabilidade condicionada é um segundo evento de um espaço amostral que ocorre em um evento depois que já tenha ocorrido o primeiro.
 
-Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$A$$ de $$S$$. Se quisermos outro evento $$B$$ desse espaço amostral $$S$$, essa nova probabilidade é indicada por $$P(B | A)$$ e dizemos que é a probabilidade condicional de $$B$$ em relação a $$A$$.
+Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$ A $$ de $$S$$. Se quisermos outro evento $$B$$ desse espaço amostral $$ S $$, essa nova probabilidade é indicada por $$ P(B \vert A) $$ e dizemos que é a probabilidade condicional de $$B$$ em relação a $$A$$.
 
 Essa probabilidade condicional irá formar um novo espaço amostral, pois agora o espaço amostral será $$A$$ e os elementos do evento $$B$$ irão pertencer a $$B \cap A$$.
 
-Para calcular a probabilidade P(B | A) deve-se seguir o mesmo raciocínio da fórmula $$P(A) = \frac{n(A)}{n(S)}$$
+Para calcular a probabilidade $$ P(B \vert A)$$ deve-se seguir o mesmo raciocínio da fórmula $$P(A) = \frac{n(A)}{n(S)}$$
 portanto:
 
-> $$P(B | A) = \frac{n(B \cap A)}{n(A)}$$ ou $$P(B | A) = \frac{P(B \cap A)}{P(A)}$$
+> $$P(B \vert A) = \frac{n(B \cap A)}{n(A)}$$ ou $$P(B \vert A) = \frac{P(B \cap A)}{P(A)}$$
 
 Sendo que:
 
@@ -71,21 +71,21 @@ Pelo caso acima podemos concluir que o papel da **nova informação** é **reduz
 
 ## Teorema da Intersecção ou Teorema do Produto
 
-![Teorema do Produto](images/aula-08/teorema-do-produto.gif)
+![Teorema do Produto]({{site.baseurl}}/assets/images/aula-08/teorema-do-produto.gif)
 
-> $$P(A \cap B) = P(A) \cdot P(B | A)$$ ou $$P(B \cap A) = P(B) \cdot P(A | B)$$
+> $$P(A \cap B) = P(A) \cdot P(B \vert A)$$ ou $$P(B \cap A) = P(B) \cdot P(A \vert B)$$
 
 Ou seja, para que aconteça $$A \cap B$$, é necessário impor que aconteça $$A$$ e depois é necessário impor que conteça $$B$$, dado que o eventyo $$A$$ já tenha acontecido.
 
 ### Generalização para 3 eventos
 
-> $$P(A \cap B \cap C) = P(B) \cdot P(B | A) \cdot P(C | A \cap B)$$
+> $$P(A \cap B \cap C) = P(B) \cdot P(B \vert A) \cdot P(C \vert A \cap B)$$
 
 ## Eventos Independentes
 
 Dois eventos são chamados independentes quando a probabilidde de acontecer um dado que aconteceu outro, é igual à probabilidade sem informação nenhuma. Ou seja:
 
-> $$P(A | B) = P(A)$$
+> $$P(A \vert B) = P(A)$$
 
 Portanto, a informação sobre o evento $$B$$ não altera a probabilidade de ocorrência de $$A$$.
 

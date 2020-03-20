@@ -9,16 +9,17 @@ icon: "fas fa-chalkboard-teacher"
   {% for aula in site.aulas %}
 
     <div class="col s12 m4">
-      <div class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
+      <div class="card advantage {{site.css}} white-text darken-1 ">
         <div class="card-image">
           <img src="https://img.youtube.com/vi/{{ aula.video }}/0.jpg">
-          <span class="card-title">{{ aula.title}}</span>
+         
         </div>
         <div class="card-content">
+          <span class="card-title">{{ aula.title}}</span>
           <p>{{ aula.description }}</p>
         </div>
-        <div class="card-action">
-          <a href="{{site.baseurl}}{{ aula.url }}">Ver aula</a>
+        <div class="card-action center-align">
+          <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="{{site.baseurl}}{{ aula.url }}">Ver aula</a>
         </div>
       </div>
     </div>   
