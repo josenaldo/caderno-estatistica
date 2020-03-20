@@ -206,13 +206,11 @@ $(window).load(function () {
 
     $(".preloader").fadeOut();
 
-
     $('html, body').animate({
         scrollTop: 10
     }, 50);
 
     calcScrollr();
     s = skrollr.init();
-
 
 });
