@@ -23,6 +23,8 @@ url: "http://josenaldo.github.io/estudo-estatistica/"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 plugins:
   - jekyll-feed
 

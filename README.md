@@ -17,7 +17,7 @@ Criar, dentro da pasta do projeto, a pasta `vendor/bundle`
 Então, executar o contêiner com o seguinte comando:
 
 ```shell
-docker run --rm -it -v "/d/repositorios/estudo-estatistica:/srv/jekyll" -v "/d/repositorios/estudo-estatistica/vendor/bundle:/usr/local/bundle" -p 4000:4000 --name estudo-estatistica estudo-estatistica bash
+docker run --rm -it -v "/d/repositorios/estudo-estatistica:/srv/jekyll" -v "/d/repositorios/estudo-estatistica/vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name estudo-estatistica estudo-estatistica bash
 ```
 
 ### Pra executar o servidor de desenvolvimento
@@ -25,7 +25,7 @@ docker run --rm -it -v "/d/repositorios/estudo-estatistica:/srv/jekyll" -v "/d/r
 Executa o servidor do jekyll.
 
 ```shell
-jekyll serve --watch --force-polling
+jekyll serve --watch --force-polling --livereload
 ```
 
 Após a execução do `jekyll serve`, verifique, no Kitematic, qual a o IP para acessar o container ou execute, no terminal do host, o comando `docker-machine ip`. O endereço para acesso é [http://IP_DO_DOCKER_MACHINE/estudo-estatistica]([http://IP_DO_DOCKER_MACHINE/estudo-estatistica])
