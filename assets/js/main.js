@@ -156,7 +156,7 @@ $(function () {
 
 
                     calcScrollr();
-                    s = skrollr.init();
+                    //s = skrollr.init();
                     s.refresh();
 
                     $('html, body').animate({
@@ -211,6 +211,6 @@ $(window).load(function () {
     }, 50);
 
     calcScrollr();
-    s = skrollr.init();
+    //s = skrollr.init();
 
 });

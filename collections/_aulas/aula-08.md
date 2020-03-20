@@ -14,7 +14,7 @@ Cada uma das operações com eventos tem a sua correspondência num Teorema da P
 
 ## Teorema do Evento complementar
 
-![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png)
+![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png){: .responsive-img}
 
 O evento complementar é a não ocorrência do evento.
 
@@ -26,7 +26,7 @@ A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade
 
 ## Teorema da União
 
-![Teorema da União]({{site.baseurl}}/assets/images/aula-08/teorema-da-uniao.png)
+![Teorema da União]({{site.baseurl}}/assets/images/aula-08/teorema-da-uniao.png){: .responsive-img}
 
 >$$P (A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
@@ -71,7 +71,7 @@ Pelo caso acima podemos concluir que o papel da **nova informação** é **reduz
 
 ## Teorema da Intersecção ou Teorema do Produto
 
-![Teorema do Produto]({{site.baseurl}}/assets/images/aula-08/teorema-do-produto.gif)
+![Teorema do Produto]({{site.baseurl}}/assets/images/aula-08/teorema-do-produto.gif){: .responsive-img}
 
 > $$P(A \cap B) = P(A) \cdot P(B \vert A)$$ ou $$P(B \cap A) = P(B) \cdot P(A \vert B)$$
 
