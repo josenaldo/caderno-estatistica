@@ -1,5 +1,6 @@
 ---
-title: Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8
+title: Aula 08
+description: Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8
 video: fKUsnlSnxpE
 name: aula-08.md
 anterior: aula-07.md

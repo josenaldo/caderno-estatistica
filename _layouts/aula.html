@@ -11,7 +11,30 @@ layout: default
         </div>
     </div>
 
-    <div class="text-darken-4 card-content {{ site.css }}-text ">        
+    <div class="text-darken-4 card-content {{ site.css }}-text ">
+        
+       
+        <div class="aula-nav center-align">
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/{{ page.previous.url }}">
+                <i class="fas fa-arrow-left"></i> Anterior
+            </a>
+        
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/aulas/">
+                <i class="fas fa-chalkboard-teacher"></i> Lista de Aulas
+            </a>
+        
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
+                href="{{site.baseurl}}/{{ page.next.url }}">
+                Próxima <i class="fas fa-arrow-right"></i>  
+            </a>
+        
+        </div>
+
+        <br/><hr/><br/> 
+
+
         <div class="video-container">
             <iframe width="853" height="480"
             src="https://www.youtube.com/embed/{{page.video}}" 
@@ -30,8 +53,8 @@ layout: default
             </a>
         
             <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
-                href="{{site.baseurl}}/">
-                <i class="fas fa-home"></i> Home
+                href="{{site.baseurl}}/aulas/">
+                <i class="fas fa-chalkboard-teacher"></i> Lista de Aulas
             </a>
         
             <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" 
@@ -42,9 +65,4 @@ layout: default
         </div>
     </div>
 </div>
-
-
-
-
-<br/>&nbsp;
 

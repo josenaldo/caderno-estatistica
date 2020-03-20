@@ -1,5 +1,6 @@
 ---
-title: Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5
+title: Aula 05
+description: Probabilidade em espaços discretos - Parte 3 - Probabilidade e Estatística | Aula 5
 video: Q4fH8SNGwdU
 name: aula-05.md
 anterior: aula-04.md

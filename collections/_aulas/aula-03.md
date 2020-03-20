@@ -1,5 +1,6 @@
 ---
-title: Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
+title: Aula 03
+description: Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
 video: MG2C67NTjBk
 name: aula-03.md
 anterior: index.md
@@ -7,7 +8,7 @@ proximo: aula-04.md
 permalink: aulas/aula-03/
 ---
 
-## Probabilidade 4358765
+## Probabilidade
 
 Probabilidade é o estudo da **aleatoriedade e da incerteza**. É a quantificação sobre o conhecimento que temos de um determinado **evento**.
 

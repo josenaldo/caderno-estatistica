@@ -4,10 +4,25 @@ title: Aulas
 icon: "fas fa-chalkboard-teacher"
 ---
 
-<ul>
-    {% for aula in site.aulas %}
-      <li>
-          <a href="{{site.baseurl}}{{ aula.url }}">{{ aula.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="row">
+
+
+  {% for aula in site.aulas %}
+
+    <div class="col s12 m4">
+      <div class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
+        <div class="card-image">
+          <img src="https://img.youtube.com/vi/{{ aula.video }}/0.jpg">
+          <span class="card-title">{{ aula.title}}</span>
+        </div>
+        <div class="card-content">
+          <p>{{ aula.description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{site.baseurl}}{{ aula.url }}">Ver aula</a>
+        </div>
+      </div>
+    </div>   
+  {% endfor %}
+
+</div>

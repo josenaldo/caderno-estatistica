@@ -1,5 +1,6 @@
 ---
-title: Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
+title: Aula 10
+description: Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
 video: NYfDVDvYuwQ
 name: aula-10.md
 anterior: aula-09.md
@@ -37,4 +38,3 @@ Para responder essa pergunta, precisamos da fórmula da combinação sem repeti�
 >
 > $P(C) = \frac{1}{50.063.860}$
 ## 4. A chance de aertar a quina
-

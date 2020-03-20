@@ -1,5 +1,6 @@
 ---
-title: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
+title: Aula 04
+description: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
 video: 9jAxVU8VcoQ
 name: aula-04.md
 anterior: aula-03.md
@@ -9,7 +10,7 @@ permalink: aulas/aula-04/
 
 ## Probabilidade
 
-O que é probabilidade? 
+O que é probabilidade?
 
 1. Medida da ocorrência de um evento?
 2. Medida baseada em registros de experiências passadas sobre a ocorrência de um evento?
@@ -19,7 +20,7 @@ O que é probabilidade?
 
 #### Definição Clássica
 
-> $p=\frac{m}{n}$
+> $$p=\frac{m}{n}$$
 
 **Onde:**
 > p = probabilidade
@@ -34,7 +35,7 @@ Desde que todos os casos possíveis sejam igualmente favoráveis.
 
 Em uma cartela de rifa existem de 100 nomes. Armengado compra 5 desses nomes. A probabilidade de armengado ganhar o prêmio é calculada em:
 
-> $p=\frac{5}{100}=5\%$
+> $$p=\frac{5}{100}=5\%$$
 
 Ou seja: 5 casos favoráveis em 100 casos possíveis.
 
@@ -44,7 +45,7 @@ A definição Frequência Lista define a probabilidade usando o histórico do qu
 
 > Probabilidade = limite da frequência relativa
 >
-> $\lim_{n \to \infty} \frac{m}{n}$
+> $$\lim_{n \to \infty} \frac{m}{n}$$
 
 **Onde:**
 
@@ -62,19 +63,19 @@ A probabilidade é um número, associado a um evento, e que obedece 3 leis:
 
 A proabilidade de um evento é sempre maior ou igual a zero.
 
-> $p(f) \ge 0$
+> $$p(f) \ge 0$$
 
 ##### 2ª Lei:
 
 A probabilidade do evento certo é igual a um.
 
-> $P(S) = 1$
+> $$P(S) = 1$$
 
 ##### 3ª Lei:
 
-Probabilidade de $E \cup F$ é igual às somas das probabilidades de $E$ e $F$ no caso específico dos eventos $E$ e $F$ serem mutualmente exclusivos.
+Probabilidade de $$E \cup F$$ é igual às somas das probabilidades de $$E$$ e $$F$$ no caso específico dos eventos $$E$$ e $$F$$ serem mutualmente exclusivos.
 
-> $P(E \cup F) = P(E) + P(F)$
+> $$P(E \cup F) = P(E) + P(F)$$
 
 #### Definição subjetiva
 
@@ -99,4 +100,3 @@ Para calcular a probabilidade de um evento complexo, nós calculamos a probabili
 ## O que é probabilidade?
 
 > Medida da informação ou crença sobre a ocorrência de um evento
-
