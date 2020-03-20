@@ -157,7 +157,7 @@ $(function () {
 
                     calcScrollr();
                     //s = skrollr.init();
-                    s.refresh();
+                    //s.refresh();
 
                     $('html, body').animate({
                         scrollTop: 10
