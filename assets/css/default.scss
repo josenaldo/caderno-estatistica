@@ -87,5 +87,24 @@ $white: #FFFFFF;
         width: 100%;
         text-align: center;
     }
+  
 }
+
+.card {
+    .card-content {
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {     
+            text-align: left;
+        }
+
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
