@@ -55,6 +55,10 @@ Sendo que:
 
 > $$P(B \cap A) = P(A) \cdot P(B)$$
 
+Portanto:
+
+> $$P(B \vert A) = \frac{P(A) \cdot P(B)}{P(A)}$$
+
 **Exemplo:**
 
 Ao tirar uma carta de um baralho de 52 cartas, qual a probabilidade de sair um Rei de Ouros?
