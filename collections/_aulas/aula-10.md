@@ -7,7 +7,8 @@ anterior: aula-09.md
 proximo: aula-11.md
 permalink: aulas/aula-10/
 ---
-## Resolução do exercício da [Aula 09](aula-09)
+
+## Resolução do exercício da [Aula 09]({{site.baseurl}}{{ page.previous.url }})
 
 No caso da megasena, o espaço amostral é composto por 60 números, de 01 a 60.
 
