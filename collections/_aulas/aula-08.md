@@ -73,6 +73,11 @@ Dessa forma, a probabilidade $$P(A) = \frac{1}{12}$$.
 
 Pelo caso acima podemos concluir que o papel da **nova informação** é **reduzir o espaço amostral**, restringindo o número de possibilidades, criando um espaço amostral diferente.
 
+### Extras
+
+{% assign videos_array = "uo16XTg2CIQ|Bdte1emEXV8|Q5ARnioHBcw|IDdvfEia8RA" | split: "|" %}
+{% include video.html videos=videos_array %}
+
 ## Teorema da Intersecção ou Teorema do Produto
 
 ![Teorema do Produto]({{site.baseurl}}/assets/images/aula-08/teorema-do-produto.gif){: .responsive-img}

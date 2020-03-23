@@ -10,9 +10,11 @@ permalink: aulas/aula-10/
 
 ## Resolução do exercício da [Aula 09]({{site.baseurl}}{{ page.previous.url }})
 
-No caso da megasena, o espaço amostral é composto por 60 números, de 01 a 60.
+No caso da megasena, o espaço amostral é composto por 60 números, de 01 a 60, e a pessoa precisa acertar os 6 números que foram sorteados.
 
 ### 1. A chance de sair o número 6 já na primeira bola do sorteio
+
+Nesse caso, só existe um sucesso, ou seja, sair 6 na primeira possibilidade. Portanto:
 
 > $$P(A) = \frac{1}{60}$$
 
@@ -37,3 +39,12 @@ Para responder essa pergunta, precisamos da fórmula da combinação sem repeti�
 > $$P(C) = \frac{1}{50.063.860}$$
 
 ### 4. A chance de acertar a quina
+
+> $$ P(D) = \frac {C_{6,5} \dot C_{54,1}}{C_{60,6}} = \frac{\binom{6}{5} \dot \binom{54}{1}}{\binom{60}{6}} $$
+>
+> $$ C_{6,5} = \binom{6}{5} = \frac{6!}{5! \dot (6 - 5)!}$$
+> 
+> $$ C_{54,1} = \binom{54}{1} = \frac{54!}{1! \dot (54 - 1)!}$$
+> 
+> $$ C_{60,1} = \binom{60}{6} = \frac{60!}{60! \dot (60 - 6)!}$$
+
