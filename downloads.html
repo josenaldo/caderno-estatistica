@@ -1,0 +1,37 @@
+---
+layout: page
+title: Arquivos para baixar
+icon: "fas fa-download"
+---
+
+<div class="row flex">
+
+  {% for download in site.data.downloads %}
+
+  <div class="col s12 m6 l4 ">
+    <div class="card advantage {{site.css}} white-text darken-1 ">
+      <div class="card-content">
+        <div class="card-title">{{ download.title}}</div>
+        <div class="card-text truncate">{{ download.description}}</div>
+      </div>
+      <div class="card-action center-align">
+
+        {% if download.external %}
+        <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn single" target="_blank"
+          href="{{ download.url }}">
+          <i class="fas fa-download"></i> Baixar
+        </a>
+        {% else %}
+        <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn single" target="_blank"
+          href="{{site.baseurl}}{{ download.url }}">
+          <i class="fas fa-download"></i> Baixar
+        </a>
+
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
