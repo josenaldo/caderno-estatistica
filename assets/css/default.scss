@@ -106,5 +106,12 @@ $white: #FFFFFF;
 .flex {
     display: flex;
     flex-wrap: wrap;
-  }
+}
+
+.center-img {        
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 
