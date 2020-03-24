@@ -63,6 +63,7 @@ collections:
   aulas:
     output: true
     
+excerpt_separator: <!--more-->
 
 # Valores default
 defaults:

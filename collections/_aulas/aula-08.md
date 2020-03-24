@@ -42,22 +42,20 @@ Para o caso de 3 eventos, temos:
 
 Probabilidade condicionada é um segundo evento de um espaço amostral que ocorre em um evento depois que já tenha ocorrido o primeiro.
 
-Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$ A $$ de $$S$$. Se quisermos outro evento $$B$$ desse espaço amostral $$ S $$, essa nova probabilidade é indicada por $$ P(B \vert A) $$ e dizemos que é a probabilidade condicional de $$B$$ em relação a $$A$$.
+Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$ A $$ de $$S$$.
+
+![Probabilidade condicionada - Evento A]({{site.baseurl}}/assets/images/aula-08/probabilidade-condicionada-1.jpg){: .responsive-img .center-img}
+
+Se quisermos outro evento $$B$$ desse espaço amostral $$ S $$, essa nova probabilidade é indicada por $$ P(B \vert A) $$ e dizemos que é a probabilidade condicional de $$B$$ em relação a $$A$$.
 
 Essa probabilidade condicional irá formar um novo espaço amostral, pois agora o espaço amostral será $$A$$ e os elementos do evento $$B$$ irão pertencer a $$B \cap A$$.
+
+![Probabilidade condicionada - Evento A]({{site.baseurl}}/assets/images/aula-08/probabilidade-condicionada-2.jpg){: .responsive-img .center-img}
 
 Para calcular a probabilidade $$ P(B \vert A)$$ deve-se seguir o mesmo raciocínio da fórmula $$P(A) = \frac{n(A)}{n(S)}$$
 portanto:
 
 > $$P(B \vert A) = \frac{n(B \cap A)}{n(A)}$$ ou $$P(B \vert A) = \frac{P(B \cap A)}{P(A)}$$
-
-Sendo que:
-
-> $$P(B \cap A) = P(A) \cdot P(B)$$
-
-Portanto:
-
-> $$P(B \vert A) = \frac{P(A) \cdot P(B)}{P(A)}$$
 
 **Exemplo:**
 
@@ -72,11 +70,6 @@ Um baralho tem 4 naipes (ouros, paus, espada e coração) e cada naipe tem 3 fig
 Dessa forma, a probabilidade $$P(A) = \frac{1}{12}$$.
 
 Pelo caso acima podemos concluir que o papel da **nova informação** é **reduzir o espaço amostral**, restringindo o número de possibilidades, criando um espaço amostral diferente.
-
-### Extras
-
-{% assign videos_array = "uo16XTg2CIQ|Bdte1emEXV8|Q5ARnioHBcw|IDdvfEia8RA" | split: "|" %}
-{% include video.html videos=videos_array %}
 
 ## Teorema da Intersecção ou Teorema do Produto
 
@@ -107,3 +100,8 @@ No caso especial de eventos independentes, o teorema do produto para dois evento
 Generealizando para K eventos:
 
 > $$P(A \cap B \cap ... \cap K) = P(A) \cdot P(B) \cdot ... \cdot P(K)$$
+
+## Vídeos Extras
+
+{% assign videos_array = "uo16XTg2CIQ|Bdte1emEXV8|Q5ARnioHBcw|IDdvfEia8RA" | split: "|" %}
+{% include video.html videos=videos_array %}
