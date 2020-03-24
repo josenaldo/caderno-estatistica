@@ -14,6 +14,26 @@ $black6: rgba(0, 0, 0, .6);
 $gray: #404040;
 $white: #FFFFFF;
 
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-header {
+    .logo {
+        font-size: 2.1rem;
+        margin-left: 10px;
+    }
+
+    .sidenav li>a {
+        font-size: 20px;
+    }
+}
 .page-footer  {
 
 	padding: 3em 0;
@@ -111,9 +131,10 @@ $white: #FFFFFF;
 .center-img {        
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 
 .card a.single {
     margin: 0;

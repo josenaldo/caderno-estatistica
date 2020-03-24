@@ -1,20 +1,28 @@
 <header class="site-header">
+
     <div class="navbar-fixed">
-        <nav class="{{ site.css }} darken-2 waves-effect waves-light">
+        <nav class="{{ site.css }} darken-2">
             <div class="nav-wrapper">
-               <div class="container">
-                <a internal href="{{ site.baseurl }}/" class="brand-logo"><i class="fas fa-chart-area"></i> {{site.title}}</a>
-                <ul id="nav-mobile" class="right side-nav">
-                    <li><a internal href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a internal href="{{ site.baseurl }}/aulas/">Aulas</a></li>
-                    <li><a internal href="{{ site.baseurl }}/perguntas/">Perguntas</a></li>
-                    <li><a internal href="{{ site.baseurl }}/referencias/">Referências</a></li>
-                    <li><a internal href="{{ site.baseurl }}/downloads/">Downloads</a></li>
+                <a internal href="{{ site.baseurl }}/" class="logo"><i class="fas fa-chart-area"></i>{{site.title}}</a>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/aulas/">Aulas</a></li>
+                    <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/perguntas/">Perguntas</a></li>
+                    <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/referencias/">Referências</a></li>
+                    <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/downloads/">Downloads</a></li>
                 </ul>
-                <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
-            </div>
             </div>
         </nav>
+
     </div>
+
+    <ul id="nav-mobile" class="sidenav">
+        <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/">Home</a></li>
+        <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/aulas/">Aulas</a></li>
+        <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/perguntas/">Perguntas</a></li>
+        <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/referencias/">Referências</a></li>
+        <li><a internal class="waves-effect waves-light" href="{{ site.baseurl }}/downloads/">Downloads</a></li>
+    </ul>
 </header>
-	
