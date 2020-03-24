@@ -14,7 +14,7 @@ Cada uma das operações com eventos tem a sua correspondência num Teorema da P
 
 ## Teorema do Evento complementar
 
-![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png){: .responsive-img}
+![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png){: .responsive-img .center-img}
 
 O evento complementar é a não ocorrência do evento.
 

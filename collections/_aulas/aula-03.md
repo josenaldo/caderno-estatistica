@@ -63,7 +63,7 @@ O conjunto $$A = \{ 2, 3, 5, 6, 4, 1 \}$$ representa um evento certo pois ele po
 
 No lançamento conjunto de dois dados qual é a possibilidade de a soma dos números contidos nas duas faces para cima, ser igual a 15?
 
-Este é um evento impossível, pois o valor máximo que podemos obter é igual a doze. Podemos representá-lo por , ou ainda por $$A = {}$$.
+Este é um evento impossível, pois o valor máximo que podemos obter é igual a doze. Podemos representá-lo por , ou ainda por $$A = \{\}$$.
 
 ### Evento União
 
