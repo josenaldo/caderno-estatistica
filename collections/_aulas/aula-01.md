@@ -1,11 +1,8 @@
 ---
-title: Aula 03
-description: Probabilidade em espaços discretos - Parte 1 - Probabilidade e Estatística | Aula 3
-video: MG2C67NTjBk
-name: aula-03.md
-anterior: index.md
-proximo: aula-04.md
-permalink: aulas/aula-03/
+title: Aula 01
+description: Probabilidade em espaços discretos
+video: AUrkhZLGVUw
+permalink: aulas/aula-01/
 ---
 
 ## Probabilidade
