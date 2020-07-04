@@ -68,7 +68,7 @@ Seja $$A = \{ 1, 3 \}$$ o evento de ocorrência da face superior no lançamento 
 
 Note que o evento C contém todos os elementos de A e B.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-01/evento-uniao.gif"
     url_hd="assets/images/aula-01/evento-uniao-hd.gif"
     description="Evento União"
@@ -80,7 +80,7 @@ Seja $$A = \{ 2, 4 \}$$ o evento de ocorrência da face superior no lançamento 
 
 Veja que o evento C contém apenas os elementos comuns a A e B.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-01/evento-intersecao.gif"
     url_hd="assets/images/aula-01/evento-intersecao-hd.gif"
     description="Evento Intersecao"
@@ -92,7 +92,7 @@ Seja $$A = \{ 1, 3, 5 \}$$ o evento de ocorrência da face superior no lançamen
 
 Os elementos de $$\bar A$$ são todos os elementos do espaço amostral $$S$$ que não estão contidos em $$A$$ (não pertencem ao evento considerado), então temos que $$\bar A = S - A$$ e ainda que $$S = A + \bar A$$. ou seja, o evento complementar significa a **não ocorrência** do evento considerado.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-01/evento-complementar.gif"
     url_hd="assets/images/aula-01/evento-complementar-hd.gif"
     description="Evento Complementar" %}
@@ -103,7 +103,7 @@ Seja $$A = \{ 1, 2, 3, 6 \}$$ o evento de ocorrência da face superior no lança
 
 Quando dois eventos $$A$$ e $$B$$ ($$A \cap B = \varnothing$$) não possuírem nenhum resultado em comum, significa que esses eventos são mutualmente exclusivos. OU seja: quando um acontece, o outro não pode acontecer.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-01/evento-excludente.gif"
     url_hd="assets/images/aula-01/evento-excludente-hd.gif"
     description="Eventos Mutualmente Excludentes" %}

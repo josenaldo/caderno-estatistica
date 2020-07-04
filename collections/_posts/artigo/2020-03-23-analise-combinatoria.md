@@ -22,7 +22,7 @@ Atenção: para compreender esse artigo, é necessário que você conheça o con
 
 ## Como decidir entre Permutação, Combinação e Arranjo?
 
-{% include local_image.html url="assets/images/post-2020-03-23-analise-combinatoria/como-decidir-arranjo-combinacao-permutacao.jpg" description="Como decidir entre combinação, permutação e arranjo" %}
+{% include imagem.html url="assets/images/post-2020-03-23-analise-combinatoria/como-decidir-arranjo-combinacao-permutacao.jpg" description="Como decidir entre combinação, permutação e arranjo" %}
 
 ## Principio Fundamental da Contagem
 

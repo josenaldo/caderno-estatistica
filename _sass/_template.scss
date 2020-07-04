@@ -1,7 +1,12 @@
 // ---------------------------------------
 // Template - Tipografia
 // ---------------------------------------
-
+.blockquote{
+    background-color: $gray-300;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 700;
+}
 
 // ---------------------------------------
 // Template - Navbar
@@ -81,15 +86,3 @@
     }
 }
 
-
-.card:not(.no-hover):hover {
-    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
-    transform: none;
-}
-
-.card {
-    border-radius: 0;
-    border: none;
-    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
-    transition: none;
-}

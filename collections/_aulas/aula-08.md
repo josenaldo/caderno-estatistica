@@ -14,7 +14,7 @@ Cada uma das operações com eventos tem a sua correspondência num Teorema da P
 
 ## Teorema do Evento complementar
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-08/teorema-evento-complementar.png"
     description="Teorema do Evento complementar" %}
 
@@ -28,7 +28,7 @@ A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade
 
 ## Teorema da União
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-08/teorema-da-uniao.png"
     description="Teorema da União" %}
 
@@ -48,7 +48,7 @@ Probabilidade condicionada é um segundo evento de um espaço amostral que ocorr
 
 Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$ A $$ de $$S$$.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-08/probabilidade-condicionada-1.jpg"
     description="Probabilidade condicionada - Figura 1" %}
 
@@ -56,7 +56,7 @@ Se quisermos outro evento $$B$$ desse espaço amostral $$ S $$, essa nova probab
 
 Essa probabilidade condicional irá formar um novo espaço amostral, pois agora o espaço amostral será $$A$$ e os elementos do evento $$B$$ irão pertencer a $$B \cap A$$.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-08/probabilidade-condicionada-2.jpg"
     description="Probabilidade condicionada - Figura 2" %}
 
@@ -81,7 +81,7 @@ Pelo caso acima podemos concluir que o papel da **nova informação** é **reduz
 
 ## Teorema da Intersecção ou Teorema do Produto
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-08/teorema-do-produto.gif"
     description="Teorema do Produto" %}
 

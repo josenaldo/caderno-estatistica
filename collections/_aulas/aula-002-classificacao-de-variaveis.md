@@ -10,7 +10,7 @@ Variável é algo que varia de elemento para elemento. São as características 
 
 Existem 2 tipos de variáveis: qualitativas e quantitativas.
 
-{% include local_image.html
+{% include imagem.html
     url="assets/images/aula-110/tipos_de_variaveis.jpeg"
     description="Tipos de Variáveis" %}
 

@@ -9,7 +9,6 @@ url: "http://josenaldo.github.io"
 
 github_repository: https://github.com/josenaldo/estudo-estatistica
 
-
 #Twitter
 twitter:
   username: vudureverso
@@ -80,4 +79,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
