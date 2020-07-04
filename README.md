@@ -1,3 +1,4 @@
+
 # Estudo de Estatística
 
 ## Comandos úteis

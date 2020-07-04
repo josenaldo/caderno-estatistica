@@ -1,4 +1,12 @@
-<figure class="image-with-caption">
-    <img src="{{site.baseurl}}/{{ include.url }}" alt="{{ include.description }}" class="responsive-img center-img">
+<figure class="image-with-caption text-center">
+    {% if include.url_hd %}
+    <a href="{{ include.url_hd | relative_url }}" target="_blank">
+        <img src="{{ include.url | relative_url }}" alt="{{ include.description }}" class="img-fluid">
+    </a>
+    {% else %}
+    <a href="{{ include.url | relative_url }}" target="_blank">
+        <img src="{{ include.url | relative_url }}" alt="{{ include.description }}" class="img-fluid">
+    </a>
+    {% endif %}
     <figcaption class="figure-caption">{{ include.description }}</figcaption>
 </figure>
