@@ -9,9 +9,11 @@ title: Aulas
         {% for aula in site.aulas %}
         <div class="col">
             <div class="card mb-3">
-                {% assign videos_array = aula.videos | split: " " %}
+                <a href="{{site.baseurl}}{{ aula.url }}">
+                    {% assign videos_array = aula.videos | split: " " %}
+                    <img src="https://img.youtube.com/vi/{{ videos_array[0] }}/0.jpg" class="card-img-top">
+                </a>
 
-                <img src="https://img.youtube.com/vi/{{ videos_array[0] }}/0.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">{{ aula.title}}</h5>
                     <p class="card-text text-truncate">{{ aula.description }}</p>
