@@ -14,7 +14,9 @@ Cada uma das operações com eventos tem a sua correspondência num Teorema da P
 
 ## Teorema do Evento complementar
 
-![Teorema do Evento complementar]({{site.baseurl}}/assets/images/aula-08/teorema-evento-complementar.png){: .responsive-img .center-img}
+{% include local_image.html
+    url="assets/images/aula-08/teorema-evento-complementar.png"
+    description="Teorema do Evento complementar" %}
 
 O evento complementar é a não ocorrência do evento.
 
@@ -26,7 +28,9 @@ A probabilidade da ocorrência do evento complementar é 1 menos a probabilidade
 
 ## Teorema da União
 
-![Teorema da União]({{site.baseurl}}/assets/images/aula-08/teorema-da-uniao.png){: .responsive-img}
+{% include local_image.html
+    url="assets/images/aula-08/teorema-da-uniao.png"
+    description="Teorema da União" %}
 
 >$$P (A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
@@ -44,13 +48,17 @@ Probabilidade condicionada é um segundo evento de um espaço amostral que ocorr
 
 Para melhor compreensão do que seja probabilidade condicional, considere um espaço amostral $$S$$ finito não vazio e um evento $$ A $$ de $$S$$.
 
-![Probabilidade condicionada - Evento A]({{site.baseurl}}/assets/images/aula-08/probabilidade-condicionada-1.jpg){: .responsive-img .center-img}
+{% include local_image.html
+    url="assets/images/aula-08/probabilidade-condicionada-1.jpg"
+    description="Probabilidade condicionada - Figura 1" %}
 
 Se quisermos outro evento $$B$$ desse espaço amostral $$ S $$, essa nova probabilidade é indicada por $$ P(B \vert A) $$ e dizemos que é a probabilidade condicional de $$B$$ em relação a $$A$$.
 
 Essa probabilidade condicional irá formar um novo espaço amostral, pois agora o espaço amostral será $$A$$ e os elementos do evento $$B$$ irão pertencer a $$B \cap A$$.
 
-![Probabilidade condicionada - Evento A]({{site.baseurl}}/assets/images/aula-08/probabilidade-condicionada-2.jpg){: .responsive-img .center-img}
+{% include local_image.html
+    url="assets/images/aula-08/probabilidade-condicionada-2.jpg"
+    description="Probabilidade condicionada - Figura 2" %}
 
 Para calcular a probabilidade $$ P(B \vert A)$$ deve-se seguir o mesmo raciocínio da fórmula $$P(A) = \frac{n(A)}{n(S)}$$
 portanto:
@@ -73,7 +81,9 @@ Pelo caso acima podemos concluir que o papel da **nova informação** é **reduz
 
 ## Teorema da Intersecção ou Teorema do Produto
 
-![Teorema do Produto]({{site.baseurl}}/assets/images/aula-08/teorema-do-produto.gif){: .responsive-img}
+{% include local_image.html
+    url="assets/images/aula-08/teorema-do-produto.gif"
+    description="Teorema do Produto" %}
 
 > $$P(A \cap B) = P(A) \cdot P(B \vert A)$$ ou $$P(B \cap A) = P(B) \cdot P(A \vert B)$$
 

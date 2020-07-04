@@ -18,7 +18,9 @@ Falando de forma simplória, ela verifica:
 
 E como a estatística interage com essa pesquisa?
 
-{% include local_image.html url="assets/images/aula-001/interacao-entre-estatistica-e-a-pesquisa-cientifica.png" description="Interação entre estatística e a pesquisa científica" %}
+{% include local_image.html
+    url="assets/images/aula-001/interacao-entre-estatistica-e-a-pesquisa-cientifica.png"
+    description="Interação entre estatística e a pesquisa científica" %}
 
 A primeira pergunta de um pesquisador, no início da pesquisa, é: serão coletados os dados de toda uma população ou apenas uma parcela representativa dessa população?
 

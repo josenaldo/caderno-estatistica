@@ -101,7 +101,7 @@ Os elementos de $$\bar A$$ são todos os elementos do espaço amostral $$S$$ que
 
 Seja $$A = \{ 1, 2, 3, 6 \}$$ o evento de ocorrência da face superior no lançamento de um dado, um número divisor de 6 e $$B = \{ 5 \}$$, o evento de ocorrência da face superior, um divisor de 5, os eventos A e B são mutuamente exclusivos, pois , isto é, os eventos não possuem elementos em comum.
 
-Quando dois eventos $$A$$ e $$B$$ ($$A \cap B = \varnothing$$) não possuirem nenhum resultado em comum, significa que esses eventos são mutualmente exclusivos. OU seja: quando um acontece, o outro não pode acontecer.
+Quando dois eventos $$A$$ e $$B$$ ($$A \cap B = \varnothing$$) não possuírem nenhum resultado em comum, significa que esses eventos são mutualmente exclusivos. OU seja: quando um acontece, o outro não pode acontecer.
 
 {% include local_image.html
     url="assets/images/aula-01/evento-excludente.gif"

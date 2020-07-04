@@ -1,21 +1,27 @@
 <div class="row d-flex justify-content-center">
     <nav aria-label="Paginação da Aula">
         <ul class="pagination justify-content-center">
+            {% if page.previous.url %}
             <li class="page-item">
                 <a class="page-link" href="{{site.baseurl}}{{ page.previous.url }}">
                     <i class="fas fa-arrow-left"></i> Anterior
                 </a>
             </li>
+            {% endif %}
+
             <li class="page-item">
                 <a class="page-link" href="{{site.baseurl}}/aulas/">
                     <i class="fas fa-chalkboard-teacher"></i> Aulas
                 </a>
             </li>
+            
+            {% if page.next.url %}
             <li class="page-item">
                 <a class="page-link" href="{{site.baseurl}}{{ page.next.url }}">
                     Próxima <i class="fas fa-arrow-right"></i>
                 </a>
             </li>
+            {% endif %}
         </ul>
     </nav>
 </div>
