@@ -1,7 +1,7 @@
 ---
 title: Aula 10
 description: Teoremas de probabilidade - Parte 3 - Probabilidade e Estatística | Aula 10
-video: NYfDVDvYuwQ
+videos: NYfDVDvYuwQ
 name: aula-10.md
 anterior: aula-09.md
 proximo: aula-11.md

@@ -1,14 +1,24 @@
-<div class="videos">
-    <ul class="collapsible">
-        {% for video in include.videos %}
-        <li>
-            <div class="collapsible-header"><i class="fas fa-video"></i>Vídeo {{forloop.index}}</div>
-            <div class="collapsible-body">
-                <div id="video-{{video}}" class="video-container col s12">
-                    <iframe width="853" height="480" src="https://www.youtube.com/embed/{{video}}" frameborder="0"
-                        allowfullscreen></iframe>
-                </div>
+<div class="accordion videos mb-3" id="accordionVideo">
+    {% assign videos_array = (include.videos | split: " ") %}
+    {% for video in videos_array %}
+    <div class="list-group">
+        <div class="list-group-item" id="heading{{forloop.index}}">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapse{{forloop.index}}" aria-expanded="true"
+                    aria-controls="collapse{{forloop.index}}">
+                    <i class="fas fa-angle-double-down"></i> Vídeo {{forloop.index}}
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapse{{forloop.index}}" class="collapse" aria-labelledby="heading{{forloop.index}}"
+            data-parent="#accordionVideo">
+            <div id="video-{{video}}" class="video-container embed-responsive embed-responsive-16by9">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/{{video}}" frameborder="0"
+                    allowfullscreen></iframe>
             </div>
-        </li>
-        {% endfor %}
-    </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>

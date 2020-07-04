@@ -20,6 +20,7 @@ title: Referências
 * [Marcos Aba - PROBABILIDADE](https://www.youtube.com/playlist?list=PLGoyMjCG9tkC5zFf5XLDIaPL0tV6SfzY_)
 * [CURSO DE PROBABILIDADE E ESTATÍSTICA PARA POSCOMP](https://www.computersciencemaster.com.br/2018/05/curso-de-probabilidade-e-estatistica-para-poscomp.html)
 * [Probabilidade e Estatística aplicada à Engenharia](https://www.youtube.com/playlist?list=PLG4ki6M9K9klllPnYgDnk-ej3rCk82y-O)
+* [ESTATÍSTICA DESCRITIVA - GRINGS](https://www.youtube.com/watch?v=a0IxPG3Ihu8&list=PLBL2uZ3OHznF5voduTW7XANfctNRpwazz)
   
 ## Canais do Youtube
 

@@ -2,6 +2,39 @@
 layout: page
 title: Ementa
 ---
+
+## Estatística
+
+1. Fundamentos do Método Estatístico
+2. Classificação de Variáveis
+3. Técnicas de Amostragem e Coleta de Dados
+
+
+4. Dados Agrupados e Não Agrupados
+5. Frequências Absoluta Relativa Acumulada
+6. Moda, Média e Mediana
+7. Média e Mediana dados agrupados
+8. cálculo do desvio padrão e da variância
+9. Média Desvio Padrão Proporção dados agrupados
+10. coeficiente de variação
+11. Propriedades da Média e Desvio Padrão
+12. 
+13. Tabela de Distribuição Normal de Duas Folhas
+14. Exercícios de distribuição normal
+15. Tabela distribuição Normal Reduzida
+16. Amostragem com Distribuição Normal
+17. Estimação por Intervalo de Confiança da Média
+18. Estimação por Intervalo de Confiança da Média
+19. Estimação por Intervalo de Confiança da Proporção
+20. Estimação por Intervalo de Confiança da Proporção e média
+21. Teste de Hipótese para Média
+22. Teste de Hipótese para Proporção
+23. Correlação e Regressão linear
+24. Correlação e Regressão com uso da HP 12c
+25. Correlação e Regressão com uso da CASIO fx-82MS
+26. Distribuição Binomial ( Introdução )
+27. Distribuição Binomial - ( Exercício 1 )
+28.
 ## Análise Combinatória
 
 1. Introdução
@@ -44,33 +77,7 @@ title: Ementa
    6. Exercícios
 5. 
 
-## Estatística
 
-1. Classificação de Variáveis
-2. Dados Agrupados e Não Agrupados
-3. Frequências Absoluta Relativa Acumulada
-4. Moda, Média e Mediana
-5. Média e Mediana dados agrupados
-6. cálculo do desvio padrão e da variância
-7. Média Desvio Padrão Proporção dados agrupados
-8. coeficiente de variação
-9. Propriedades da Média e Desvio Padrão
-10. 
-13. Tabela de Distribuição Normal de Duas Folhas
-14. Exercícios de distribuição normal
-15. Tabela distribuição Normal Reduzida
-16. Amostragem com Distribuição Normal
-17. Estimação por Intervalo de Confiança da Média
-18. Estimação por Intervalo de Confiança da Média
-19. Estimação por Intervalo de Confiança da Proporção
-20. Estimação por Intervalo de Confiança da Proporção e média
-21. Teste de Hipótese para Média
-22. Teste de Hipótese para Proporção
-23. Correlação e Regressão linear
-24. Correlação e Regressão com uso da HP 12c
-25. Correlação e Regressão com uso da CASIO fx-82MS
-26. Distribuição Binomial ( Introdução )
-27. Distribuição Binomial - ( Exercício 1 )
 
 
 População, amostra, média, moda e mediana

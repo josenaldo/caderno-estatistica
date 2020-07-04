@@ -1,68 +1,62 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Probabilidade e Estatística
-email: josenaldo@gmail.com
+
+title: Caderno de Estatística
+tagline: Estudo Amaldiçoado de Probabilidade e Estatística
 description: >- # this means to ignore newlines until "baseurl:"
-  Anotações do meu estudo no curso de Probabilidade e Estatística, disponibilizado 
-  por uma parceria entre a Veduca e a USP, de forma gratuita.
+  Anotações do Estudo Amaldiçoado de Probabilidade e Estatística do Vudu Reverso. Use por sua conta e risco.
 baseurl: "/estudo-estatistica" # the subpath of your site, e.g. /blog
-url: "http://josenaldo.github.io/estudo-estatistica/"
+url: "http://josenaldo.github.io"
+
+github_repository: https://github.com/josenaldo/estudo-estatistica
+
+
+#Twitter
+twitter:
+  username: vudureverso
+  card: summary_large_image
+
+#logo
+logo: "/invoca-piroto/assets/images/logo.jpg"
+
+social:
+  name: Vudu Reverso
+  links:
+    - https://twitter.com/vudureverso
+    - https://www.facebook.com/josenaldo.matos
+    - https://www.linkedin.com/in/josenaldo/
+    - https://github.com/josenaldo
+
+lang: pt-BR
+author: vudureverso
+
+# Social usernames/URLs
+twitter_username: vudureverso
+github_username: josenaldo
+instagram_username: vudureverso
+reddit_username: vudureverso
+linkedin_link: https://www.linkedin.com/in/josenaldo/
+facebook_link: https://www.facebook.com/josenaldo.matos
+email: josenaldo@gmail.com
 
 # Build settings
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-plugins:
-  - jekyll-feed
-
-# Social usernames/URLs
-twitter_username: vudureverso
-github_username:  josenaldo
-instagram_username: vudureverso
-reddit_username: vudureverso
-linkedin_link: https://www.linkedin.com/in/josenaldo/
-facebook_link: https://www.facebook.com/josenaldo.matos
-
-# Required by template
-css: "blue-grey"
-scroll-cursor: "#00BCD4"
-scroll-rail: "#0097A7"
-highlighter: null #pygments
-lsi: false
-safe: false
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-permalink: pretty
 exclude: [vendor]
+permalink: pretty
+
+#Plugins
+plugins:
+  - jekyll-seo-tag
 
 # Coleções
 collections_dir: collections
 collections:
   aulas:
     output: true
-    
+  perguntas:
+    output: true
+
 excerpt_separator: <!--more-->
 
 # Valores default
@@ -74,11 +68,16 @@ defaults:
       layout: "aula"
   - scope:
       path: ""
+      type: "perguntas"
+    values:
+      layout: "pergunta"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
   - scope:
       path: ""
     values:
-      layout: "home"
+      layout: "default"
 

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Perguntas
+---
+
+<div class="container">
+    <div class="row">
+
+        {% for pergunta in site.perguntas %}
+        <div class="col-12">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">{{ pergunta.title}}</h4>
+                    <p class="card-text">{{ pergunta.content }}</p>
+                    <a class="card-link" href="{{site.baseurl}}{{ pergunta.url }}">Ver resposta</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

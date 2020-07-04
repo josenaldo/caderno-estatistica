@@ -1,7 +1,7 @@
 ---
 title: Aula 04
 description: Probabilidade em espaços discretos - Parte 2 - Probabilidade e Estatística | Aula 4
-video: 9jAxVU8VcoQ
+videos: 9jAxVU8VcoQ
 name: aula-04.md
 anterior: aula-03.md
 proximo: aula-05.md

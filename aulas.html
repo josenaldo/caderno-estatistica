@@ -1,28 +1,24 @@
 ---
-layout: page
+layout: default
 title: Aulas
-icon: "fas fa-chalkboard-teacher"
 ---
 
-<div class="row flex">
+<div class="container">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
 
-  {% for aula in site.aulas %}
+        {% for aula in site.aulas %}
+        <div class="col">
+            <div class="card mb-3">
+                {% assign videos_array = aula.videos | split: " " %}
 
-    <div class="col s12 m6 l4 ">
-      <div class="card advantage {{site.css}} white-text darken-1 ">
-        <div class="card-image">
-          <img src="https://img.youtube.com/vi/{{ aula.video }}/0.jpg">
-         
+                <img src="https://img.youtube.com/vi/{{ videos_array[0] }}/0.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ aula.title}}</h5>
+                    <p class="card-text text-truncate">{{ aula.description }}</p>
+                    <a class="card-link" href="{{site.baseurl}}{{ aula.url }}">Ver aula</a>
+                </div>
+            </div>
         </div>
-        <div class="card-content">
-          <div class="card-title">{{ aula.title}}</div>
-          <div class="card-text truncate">{{ aula.description}}</div>
-        </div>
-        <div class="card-action center-align">
-          <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn single" href="{{site.baseurl}}{{ aula.url }}">Ver aula</a>
-        </div>
-      </div>
-    </div>   
-  {% endfor %}
-
+        {% endfor %}
+    </div>
 </div>

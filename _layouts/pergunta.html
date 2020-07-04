@@ -6,14 +6,14 @@ layout: default
     <div class="card mb-3">
 
         <div class="card-body">
-            {% include pagination_aulas.html %}
-
+            {% include pagination_perguntas.html %}
+    
             {% assign videos_array = page.videos | split: " " %}
             {% include video.html videos=page.videos %}
 
             {{ content }}
 
-            {% include pagination_aulas.html %}
+            {% include pagination_perguntas.html %}
         </div>
     </div>
 </div>

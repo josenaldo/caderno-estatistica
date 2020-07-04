@@ -1,0 +1,15 @@
+<!-- TODO: Arrumar o breadcrumb para lidar com mais de 3 níveis -->
+<nav aria-label="breadcrumb" class="breadcrumb-container">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="{{'/' | relative_url}}">
+                    Home
+                </a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+                {{page.title}}
+            </li>
+        </ol>
+    </div>
+</nav>

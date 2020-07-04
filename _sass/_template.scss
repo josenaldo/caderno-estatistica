@@ -1,0 +1,95 @@
+// ---------------------------------------
+// Template - Tipografia
+// ---------------------------------------
+
+
+// ---------------------------------------
+// Template - Navbar
+// ---------------------------------------
+.navbar-brand {
+    font-size: 2em;
+}
+
+// ---------------------------------------
+// Template - Breadcrumb
+// ---------------------------------------
+.home-breadcrumb {
+    .breadcrumb{
+        margin-bottom: 0;
+    }
+}
+
+.breadcrumb-container{
+    width: 100%;
+    background-color: $gray-200;
+}
+
+// ---------------------------------------
+// Template - Rodapé
+// ---------------------------------------
+.page-footer {
+
+    width: 100%;
+
+    padding: 1em 0 0 0;
+    text-align: center;
+
+    a{
+        color: $white !important;
+    }
+
+    .social-title {
+        color: $white;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .social-link {
+        color: $white;
+        font-weight: bold;
+        font-size: 1em;
+
+        a{
+            text-decoration: none;
+            border-bottom: none !important;
+        }
+    }
+
+    .social {
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline;
+                font-size: 32px;
+                margin: 0 5px;
+                ;
+
+                a:-webkit-any-link {
+                    text-decoration: none !important;
+                    border-bottom: none !important;
+                }
+            }
+        }
+    }
+
+    .footer-copyright{
+        color: $white;
+    }
+}
+
+
+.card:not(.no-hover):hover {
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+    transform: none;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+    transition: none;
+}

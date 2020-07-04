@@ -42,3 +42,17 @@ docker exec -it curso-probabilidade-estatistica bash
 * [https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)
 * [https://ddewaele.github.io/running-jekyll-in-docker/](https://ddewaele.github.io/running-jekyll-in-docker/)
 * [https://github.com/envygeeks/jekyll-docker](https://github.com/envygeeks/jekyll-docker)
+
+
+## Cores
+
+- #eceff1 blue-grey lighten-5
+- #cfd8dc blue-grey lighten-4
+- #b0bec5 blue-grey lighten-3
+- #90a4ae blue-grey lighten-2
+- #78909c blue-grey lighten-1
+- #607d8b blue-grey
+- #546e7a blue-grey darken-1
+- #455a64 blue-grey darken-2
+- #37474f blue-grey darken-3
+- #263238 blue-grey darken-4

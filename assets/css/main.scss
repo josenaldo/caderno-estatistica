@@ -8,11 +8,11 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
- 
+
 main {
     flex: 1 0 auto;
-  }
-  
+}
+
 .clamp-module {
     height: 120px;
     overflow: hidden;
@@ -25,6 +25,7 @@ main {
     overflow: hidden;
     max-height: 1.2em;
 }
+
 nav {
     overflow: visible !important;
     z-index: auto;
@@ -90,17 +91,20 @@ nav {
 }
 
 .mast {
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 20%;
 }
-.mast h1{
+
+.mast h1 {
     font-size: 100px;
 }
-.mast h6{
+
+.mast h6 {
     font-size: 18px;
 }
+
 .preshadow {
     padding-bottom: 40px;
 }
@@ -129,20 +133,21 @@ nav {
 .card .cover {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
     transition: 0.3s all ease;
     overflow: hidden;
 }
 
-.card .cover .cover-text{
+.card .cover .cover-text {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 150px;
     overflow: hidden;
-    text-overflow: clip; /*add max-width */
+    text-overflow: clip;
+    /*add max-width */
     max-width: 100%;
-    
+
 }
 
 .card .cover:hover {
@@ -155,13 +160,12 @@ nav {
     opacity: 0.4;
 }
 
-
-
 @media (min-width: 1600px) {
     .scroll-1 {
         width: 1200px;
         margin-left: -600px;
     }
+
     .scroll-1 .card .cover {
         width: 1200px;
     }
@@ -172,6 +176,7 @@ nav {
         width: 1000px;
         margin-left: -500px;
     }
+
     .scroll-1 .card .cover {
         width: 1000px;
     }
@@ -182,6 +187,7 @@ nav {
         width: 900px;
         margin-left: -450px;
     }
+
     .scroll-1 .card .cover {
         width: 900px;
     }
@@ -192,6 +198,7 @@ nav {
         width: 700px;
         margin-left: -350px;
     }
+
     .scroll-1 .card .cover {
         width: 700px;
     }
@@ -202,6 +209,7 @@ nav {
         width: 500px;
         margin-left: -250px;
     }
+
     .scroll-1 .card .cover {
         width: 500px;
     }
@@ -212,16 +220,19 @@ nav {
         width: 450px;
         margin-left: -225px;
     }
+
     .scroll-1 .card .cover {
         width: 450px;
     }
 }
+
 /*HEIGHT*/
 
 @media (min-height: 1600px) {
     .scroll-1 .card-content {
         height: 300px;
     }
+
     .scroll-1 .card .cover {
         height: 600px;
     }
@@ -231,6 +242,7 @@ nav {
     .scroll-1 .card-content {
         height: 300px;
     }
+
     .scroll-1 .card .cover {
         height: 500px;
     }
@@ -240,26 +252,31 @@ nav {
     .scroll-1 .card-content {
         height: 300px;
     }
+
     .scroll-1 .card .cover {
         height: 400px;
     }
 }
+
 /* Portrait tablet to landscape and desktop */
 
 @media (max-height: 979px) {
     .scroll-1 .card-content {
         height: 200px;
     }
+
     .scroll-1 .card .cover {
         height: 250px;
     }
 }
+
 /* Landscape phone to portrait tablet */
 
 @media (max-height: 667px) {
     .scroll-1 .card-content {
         height: 140px;
     }
+
     .scroll-1 .card .cover {
         height: 190px;
     }
@@ -269,16 +286,19 @@ nav {
     .scroll-1 .card-content {
         height: 120px;
     }
+
     .scroll-1 .card .cover {
         height: 140px;
     }
 }
+
 /* Landscape phones and down */
 
 @media (max-height: 480px) {
     .scroll-1 .card-content {
         height: 100px;
     }
+
     .scroll-1 .card .cover {
         height: 100px;
     }

@@ -1,10 +1,9 @@
 ---
-title: Aula 100
+title: Aula 001
 description: Fundamentos da Análise do Método Estatístico
-permalink: aulas/aula-100/
+permalink: aulas/aula-001
+videos: xO4hetdhym8
 ---
-
-# Fundamentos da Análise do Método Estatístico
 
 ## Conceito de Estatística
 
@@ -61,8 +60,7 @@ população com base em resultados amostrais.
 
 Observação -> Perguntas -> Hipóteses -> Experimento -> Análise -> Conclusão
 
-    Método: é um conjunto de caminhos organizados para se chegar a um
-    fim que se deseja.
+Método: é um conjunto de caminhos organizados para se chegar a um fim que se deseja.
 
 ### Método Experimental
 

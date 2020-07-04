@@ -1,7 +1,7 @@
 ---
 title: Aula 08
 description: Teoremas de probabilidade - Parte 1 - Probabilidade e Estatística | Aula 8
-video: fKUsnlSnxpE
+videos: uo16XTg2CIQ Bdte1emEXV8 Q5ARnioHBcw IDdvfEia8RA
 name: aula-08.md
 anterior: aula-07.md
 proximo: aula-09.md
@@ -100,8 +100,3 @@ No caso especial de eventos independentes, o teorema do produto para dois evento
 Generealizando para K eventos:
 
 > $$P(A \cap B \cap ... \cap K) = P(A) \cdot P(B) \cdot ... \cdot P(K)$$
-
-## Vídeos Extras
-
-{% assign videos_array = "uo16XTg2CIQ|Bdte1emEXV8|Q5ARnioHBcw|IDdvfEia8RA" | split: "|" %}
-{% include video.html videos=videos_array %}

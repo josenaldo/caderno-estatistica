@@ -1,7 +1,7 @@
 ---
 title: Aula 01
 description: Probabilidade em espaços discretos
-video: AUrkhZLGVUw
+videos: AUrkhZLGVUw
 permalink: aulas/aula-01/
 ---
 
