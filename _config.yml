@@ -4,10 +4,10 @@ title: Caderno de Estatística
 tagline: Estudo Amaldiçoado de Probabilidade e Estatística
 description: >- # this means to ignore newlines until "baseurl:"
   Anotações do Estudo Amaldiçoado de Probabilidade e Estatística do Vudu Reverso. Use por sua conta e risco.
-baseurl: "/estudo-estatistica" # the subpath of your site, e.g. /blog
+baseurl: "/caderno-estatistica" # the subpath of your site, e.g. /blog
 url: "http://josenaldo.github.io"
 
-github_repository: https://github.com/josenaldo/estudo-estatistica
+github_repository: https://github.com/josenaldo/caderno-estatistica
 
 #Twitter
 twitter:
