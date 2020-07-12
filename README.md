@@ -8,7 +8,7 @@
 Para construir a imagem do contêiner, usamos o comando abaixo, na pasta do projeto.
 
 ```shell
-docker build -t curso-probabilidade-estatistica .
+docker build -t caderno-estatistica .
 ```
 
 ### Execução do contêiner
@@ -18,7 +18,7 @@ Criar, dentro da pasta do projeto, a pasta `vendor/bundle`
 Então, executar o contêiner com o seguinte comando:
 
 ```shell
-docker run --rm -it -v "/d/repositorios/curso-probabilidade-estatistica:/srv/jekyll" -v "/d/repositorios/curso-probabilidade-estatistica/vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name curso-probabilidade-estatistica curso-probabilidade-estatistica bash
+docker run --rm -it -v "/d/repositorios/caderno-estatistica:/srv/jekyll" -v "/d/repositorios/caderno-estatistica/vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name caderno-estatistica caderno-estatistica bash
 ```
 
 ### Pra executar o servidor de desenvolvimento
@@ -29,12 +29,18 @@ Executa o servidor do jekyll.
 jekyll serve --watch --force-polling --livereload
 ```
 
-Após a execução do `jekyll serve`, verifique, no Kitematic, qual a o IP para acessar o container ou execute, no terminal do host, o comando `docker-machine ip`. O endereço para acesso é [http://IP_DO_DOCKER_MACHINE/curso-probabilidade-estatistica]([http://IP_DO_DOCKER_MACHINE/curso-probabilidade-estatistica])
+Após a execução do `jekyll serve`, verifique, no Kitematic, qual a o IP para acessar o container ou execute, no terminal do host, o comando `docker-machine ip`. O endereço para acesso é [http://IP_DO_DOCKER_MACHINE/caderno-estatistica]([http://IP_DO_DOCKER_MACHINE/caderno-estatistica])
 
 ### Conectando num container que está rodando
 
 ```shell
-docker exec -it curso-probabilidade-estatistica bash
+docker exec -it caderno-estatistica bash
+```
+
+### Se precisar reconectar num servidor que já está rodando
+
+```shell
+pkill -u jekyll
 ```
 
 ## Referências
