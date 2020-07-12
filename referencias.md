@@ -8,6 +8,7 @@ title: Referências
 
 ## Outros Cursos
 
+- [Introdução à Estatística](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-RNpEswiFdLgaSBsTLDUDbh)
 - [PROBABILIDADE - MATEMÁTICA RAPIDOLA com MARCOS MURAKAMI](https://www.youtube.com/watch?v=Sz7_OqasKgA&list=PLN0ZrxDaBfhgFE48sqlySnEgdFVGroKsf)
 - [PROBABILIDADE - Equaciona matemática com Paulo Pereira](https://www.youtube.com/watch?v=8g571hUvgeo&list=PLEfwqyY2ox85yFBHTW0UbXAvuaPULX2vs)
 - [Licenciatura em Matemática - Estatística e Probabilidade - 16º Bimestre](https://www.youtube.com/playlist?list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew)
