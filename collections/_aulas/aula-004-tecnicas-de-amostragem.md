@@ -2,7 +2,7 @@
 title: Aula 004
 description: Tipos de Amostragem
 permalink: aulas/aula-004
-videos: vcTQCIfz9_M olHF_ICKKpM xi7CNuYgZ_0 pgdh3wapzJY 36ulultiNoM HMcGa0X9nEQ
+videos: vcTQCIfz9_M olHF_ICKKpM xi7CNuYgZ_0 pgdh3wapzJY 36ulultiNoM HMcGa0X9nEQ Tk-7fTtUP_Y 5xWb9Nyttcc H1jq8bEvl34 PNdMANe96cU EIf8x6vucRs tNSibIaX_E4 _7LOGnu-KIY 7BDijqvFSNE SLZ_zueJonQ
 ---
 
 Na classificação geral do levantamento de coleta de amostra, ou amostragem, temos duas possibilidades de amostragem:
@@ -69,6 +69,14 @@ Os elementos são escolhidos de maneira puramente aleatória. Pode se usar sorte
 >
 > 3) Após o sorteio, teremos 20 pessoas selecionadas para compor a amostra, ou seja, 25% da população.
 
+Nesse tipo de amostragem, é importante que a aleatoriedade seja mantida na hora de escolher cada elemento. Algumas ferramenta que podem ajudar nesse sorteio:
+
+- Tabelas de números aleatórios
+- Excel
+- Calculadora científica
+- Sites de sorteio
+- Um programa simples, escrito em qualquer linguagem de programação que tenha uma biblioteca de randomização, como Python, Java, C#, etc.
+
 #### Amostragem Probabilística Sistemática
 
 Na Amostragem Probabilística Sistemática, os elementos da amostra são escolhidos a partir de um fator de repetição, intervalo fixo. isto é, fixamos o tamanho da população ou, quando necessário, um valor aproximado e identificamos cada um pela sua posição.
@@ -95,13 +103,17 @@ Na Amostragem Probabilística Estratificada, os elementos são escolhidos propor
 > Num grupo de 100 pessoas, há 40 mulheres e 60 homens. Precisamos de uma amostra de 20 pessoas. Então, faremos da seguinte forma:
 >
 > 1) Separamos a amostra em dois estratos, 40 mulheres e 60 homens.
-> 2) Para termos uma amostra de 20 pessoas, precisamos de 8 mulheres e 12 homens.
-> 3) Para cada estrato, podemos utilizar os métodos anteriores.
+> 2) Para termos uma amostra de 20 pessoas, precisamos de 8 mulheres e 12 homens (o cálculo é feito de forma semelhante à Amostragem Proporcional).
+> 3) Para cada estrato, podemos utilizar os métodos **Probabilísticos** anteriores (Amostragem Simples ou Amostragem Sistemática).
 > 4) Por fim, somamos as 20 pessoas com a mesma representatividade da população.
 
 #### Amostragem Probabilística por Conglomerados (por Clusters)
 
-Na Amostragem Probabilística Estratificada, os elementos da amostra são escolhidos aleatoriamente, de forma natural, por grupos (clusters). esse método se faz necessário em situações nas quais é impossível ou inviável criar um quadro de amostragem de uma população alvo, porque ela é espalhada geograficamente e o custo da recolha de dados é relativamente alto.
+Na amostragem por Conglomerados, você tem acesso aos conglomerados, mas não tem acesso aos indivíduos que pertencem ao conglomerado. Então, o controle é feito por conglomerados e não por indivíduos.
+
+Nessa amostragem, dividimos a população em conglomerados(clusters) e escolhemos os conglomerados de acordo com os métodos probabilísticos anteriores. Após essa escolha, os todos os elementos do conglomerado são escolhidos( por exemplo, entrevistados).
+
+Um exemplo de situação onde isso é necessário é quando é impossível ou inviável criar um quadro de amostragem de uma população alvo, porque ela é espalhada geograficamente e o custo da recolha de dados é relativamente alto.
 
 <div class="alert alert-info" role="alert">
     É importante destacar que a heterogeneidade do grupo é essencial para ter uma amostra por conglomerados. Além disso, os elementos dentro de cada grupo devem ser tão diversos como a população alvo!
