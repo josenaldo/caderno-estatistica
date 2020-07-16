@@ -1,6 +1,6 @@
 ---
 title: Aula 002
-description: Fundamentos da Análise do Método Estatístico II
+description: Variáveis estatísticas
 permalink: aulas/aula-002
 videos: a0IxPG3Ihu8 LlwBvM1eYWk JPlEl26ek1U
 ---
