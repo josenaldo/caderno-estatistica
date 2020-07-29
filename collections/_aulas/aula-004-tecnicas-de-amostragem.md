@@ -30,7 +30,7 @@ Na amostragem acidental, a seleção dos elementos da amostra acaba ocorrendo ao
 
 #### Amostragem Intencional
 
-é um tipo de abordagem derivada da acidental. A diferença é que existe um filtro, em que apenas pessoas de interesse serão selecionadas e/ou abordadas pelo entrevistador.
+É um tipo de abordagem derivada da acidental. A diferença é que existe um filtro, em que apenas pessoas de interesse serão selecionadas e/ou abordadas pelo entrevistador.
 
 {% include imagem.html
     url="assets/images/aula-004/amostragem-intencional.svg"

@@ -17,6 +17,14 @@ Criar, dentro da pasta do projeto, a pasta `vendor/bundle`
 
 Então, executar o contêiner com o seguinte comando:
 
+Docker desktop:
+
+```shell
+docker run --rm -it -v "d:\repositorios\caderno-estatistica:/srv/jekyll" -v "d:\repositorios\caderno-estatistica\vendor\bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name caderno-estatistica caderno-estatistica bash
+```
+
+Docker Toolbox:
+
 ```shell
 docker run --rm -it -v "/d/repositorios/caderno-estatistica:/srv/jekyll" -v "/d/repositorios/caderno-estatistica/vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name caderno-estatistica caderno-estatistica bash
 ```
