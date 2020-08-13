@@ -151,6 +151,26 @@ as respectivas frequências acumuladas.
 | 8,5  | 2,7  | 10,6 | 15,5 | 0,5  | 12,7 | 13,5 |
 | 16,7 | 19,1 | 11,9 | 4,8  | 14,9 | 6,9  | 1,8  |
 
+### Exercício 3
+
+EEAR 2019/1 - A tabela apresenta as frequências acumuladas das notas de
+70 alunos, obtidas em uma avaliação. A frequência absoluta da 2ª classe
+é:
+
+- a) 14
+- b) 15
+- c) 16
+- d) 17
+
+{: .table .table-striped .table-responsive-sm .table-bordered .text-center}
+|    Notas    | Frequência Acumulada |
+| :---------: | :------------------: |
+| [2,0 , 3,5) |          12          |
+| [3,5 , 5,0) |          26          |
+| [5,0 , 6,5) |          43          |
+| [6,5 , 8,0) |          57          |
+| [8,0 , 9,5) |          70          |
+
 ## Resolução dos exercícios
 
 ### Resolução do Exercício 1
@@ -220,3 +240,17 @@ Passo 4: construa  a tabela de frequência
 | [14 , 16,7)   | 6   | 43   | 12%  | 88%   |
 | [16,7 , 19,5) | 6   | 49   | 12%  | 100%  |
 | Total         | 49  |      | 100% |       |
+
+### Resolução do Exercício 3
+
+Passo 1:
+
+Para saber a frequência absoluta da segunda classe, basta subtrair a
+frequência acumulada da primeira da frequência acumulada da segunda.
+
+{: .blockquote}
+> $$(f) = 26 - 12$$
+>
+> $$(f) = 14$$
+
+Resposta: a) 14
