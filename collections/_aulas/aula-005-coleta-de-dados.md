@@ -8,6 +8,7 @@ videos:
 {% include imagem.html
     url="assets/images/aula-003/tipos-de-coleta.jpeg"
     description="Tipos de Coletas" %}
+
 Existe duas formas de coletarmos dados de uma pesquisa: a direta e a indireta.
 
 - Coleta Indireta

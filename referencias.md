@@ -6,11 +6,29 @@ title: Referências
 
 - [http://www.matematicadidatica.com.br/ProbabilidadeConceitos.asp](http://www.matematicadidatica.com.br/ProbabilidadeConceitos.asp)
 
-## Outros Cursos
+## Cursos
 
-- [Introdução à Estatística](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-RNpEswiFdLgaSBsTLDUDbh)
+- [Curso de Estatística - Professor Guru](https://professorguru.com.br/menu-estatistica.html)
+  - [ ] [Análise Combinatória](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-Q0Qjnh38m9-nQwDNui0i6c)
+  - [x] [Introdução à Estatística](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-RNpEswiFdLgaSBsTLDUDbh)
+  - [ ] [Estatística Descritiva - Organização de Dados](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-Rh3-UVhgatvP-a-3aC1ais)
+  - [ ] [Gráficos Estatísticos](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-SC-LHrnrj-zQ8W1fUQlPD3)
+  - [ ] [Medidas de Posição](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-SyqRyDJaNtuxEDW8ToHnWB)
+  - [ ] [Medidas de Dispersão](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-T2gcNyfSgLevC1vbcMf3nz)
+  - [ ] [Introdução à Probabilidade](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-TCYYE9SZeUUHhB7xVXj-O1)
+  - [ ] [Distribuição de Probabilidades](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-RW8SXEKHsfLmFNAexb3wYw)
+  - [ ] [Distribuição Binomial](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-QE_GjV3WevJC7zWyhKm77h)
+  - [ ] [Distribuição Geométrica](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-T9i6LqUb4uGgiFJcSg6tFw)
+  - [ ] [Distribuição de Poisson](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-QM-vxH-I1N89OoZ9PLZo_K)
+  - [ ] [Distribuição Normal](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-Q5qb_8EovDacbfD-67UuWu)
+  - [ ] [Intervalo de Confiança](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-SgMcsUnaSYs4kT2z69ikM2)
+  - [ ] [Testes de Hipóteses](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-TfV-S6WiGDvIsZds6Pv_g8)
+  - [ ] [Listas de Exercícios - Estatística Descritiva](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-R9GI4kmZYqeWZker_v1ikz)
+
+## Outros Youtube
+
 - [PROBABILIDADE - MATEMÁTICA RAPIDOLA com MARCOS MURAKAMI](https://www.youtube.com/watch?v=Sz7_OqasKgA&list=PLN0ZrxDaBfhgFE48sqlySnEgdFVGroKsf)
-- [PROBABILIDADE - Equaciona matemática com Paulo Pereira](https://www.youtube.com/watch?v=8g571hUvgeo&list=PLEfwqyY2ox85yFBHTW0UbXAvuaPULX2vs)
+- [PROBABILIDADE - Equaciona matemática com Paulo Pereira](https://www.youtube.com/playlist?list=PLEfwqyY2ox85yFBHTW0UbXAvuaPULX2vs)
 - [Licenciatura em Matemática - Estatística e Probabilidade - 16º Bimestre](https://www.youtube.com/playlist?list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew)
 - [Licenciatura Univesp - Estatística - 03º Bimestre](https://www.youtube.com/playlist?list=PLxI8Can9yAHfGeWW2TS_o4bAueT_ySiqG)
 - [PROBABILIDADE- Teoria COMPLETA com EXERCÍCIOS](https://www.youtube.com/playlist?list=PLcWTTAIxTYjUUUcXV6wcq4SEH-_9rDb-3)
