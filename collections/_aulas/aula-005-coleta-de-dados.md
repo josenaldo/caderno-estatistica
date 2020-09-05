@@ -2,7 +2,7 @@
 title: Aula 005
 description: Coleta de Dados
 permalink: aulas/aula-005
-videos: 
+videos: mC2wy2EwJfg
 ---
 
 {% include imagem.html
@@ -23,4 +23,4 @@ Existe duas formas de coletarmos dados de uma pesquisa: a direta e a indireta.
 - Coleta Direta Periódica
   - Quando a coleta é feita em intervalos constantes de tempo, ela é classificada como periódica, por exemplo, os censos (10 em 10 anos),avaliações bimestrais dos alunos, ENADE - Exame Nacional de Desempenho dos Estudantes – com periodicidade máxima trienal para cada área do conhecimento, etc.
 - Coleta Direta Ocasional
-  - Quando a coleta é feita em determinada situação pontual, para atender a um objetivo específico, essa coleta é classificada como ocasional, por exemplo, uma pesquisa para traçar o perfil de comunidade e suas demandas por formação profissional, superpopulação de algas em praia, pesquisa de um produto no mercado, etc.
+  - Quando a coleta é feita em determinada situação pontual, para atender a um objetivo específico, essa coleta é classificada como ocasional, por exemplo, uma pesquisa para traçar o perfil de comunidade e suas demandas por formação profissional, superpopulação de algas em praia, pesquisa de um produto no mercado.
