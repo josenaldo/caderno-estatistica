@@ -2,7 +2,7 @@
 title: Aula 007
 description: Frequência
 permalink: aulas/aula-007
-videos:
+videos: QZGQk56aHOw rRtPYG0sqlQ 4LNiBhzLIWw a5s5gXI_72c YnYgxhwNwDY J8W2Kj5xnsU 5Ah5OVYRCGU lLTPhXul37w 064ysUV0pfU 6c_Mx8m0Fko xbD7dgqHVNM 9W8kR_N_9VQ NwvNdn9uoI8 eigc65QwZUE uLwCkOIAHTU lD3efyCSnLs ucwUjkSLZm4 uXUjpzKD1PQ zHpHZcOAegM
 ---
 ## Frequência
 
@@ -94,9 +94,9 @@ Neste caso, a amplitide foi definida pesquisador a partir de critérios subjetiv
 
 As mais utilizadas são:
 
-- Regra de Sturges (Regra do Logaritmo)
+- Regra de Sturges - Regra do Logaritmo
   - $$k = 1 + 3,3 \log (n)$$
-- Regra da potência de 2
+- Regra da potência de 2 - Regra da Desigualdade
   - $$k = \text{menor valor inteiro tal que } {2^k} \ge n$$
 - Regra da Raiz Quadrada
   - $$k = \sqrt{n}$$
@@ -131,7 +131,7 @@ Arredondando, temos uma amplitude de 1. Dessa forma, temos a seguinte tabela de 
 Os dadosque seguem representam as idades, em anos, completos, de todas as crianças atendidas em certo dia por um posto de puericultura. Organize os dados e construa a tabela de frequência com as seguintes frequências: absoluta, relativa e as respectivas frequencias acumuladas.
 
 {: .table .table-striped .table-responsive-sm .table-bordered .text-center}
-| 1 | 2 | 0 | 1 | 1 | 8 | 2 | 3 | 1 |
+| 1 | 3 | 0 | 1 | 1 | 8 | 2 | 3 | 1 |
 | 1 | 2 | 5 | 0 | 3 | 4 | 1 | 2 | 0 |
 
 ### Exercício 2
@@ -178,21 +178,21 @@ EEAR 2019/1 - A tabela apresenta as frequências acumuladas das notas de
 Passo 1: Primeiro, organizamos os dados acima em rol.
 
 {: .table .table-striped .table-responsive-sm .table-bordered .text-center}
-| 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 2 | 2 | 3 | 3 | 4 | 5 | 8 |
+| 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 3 | 3 | 4 | 5 | 8 |
 
 Passo 2: Montamos a tabela de frequências.
 
 {: .table .table-striped .table-responsive-sm .table-bordered .text-center}
-| Idade | (f) | (fa) | (fr) | (fra) |
-| ----- | --- | ---- | ---- | ----- |
-| 0     | 3   | 3    | 17%  | 17%   |
-| 1     | 6   | 9    | 33%  | 50%   |
-| 2     | 4   | 13   | 22%  | 72%   |
-| 3     | 2   | 15   | 11%  | 83%   |
-| 4     | 1   | 16   | 6%   | 89%   |
-| 5     | 1   | 17   | 6%   | 94%   |
-| 8     | 1   | 18   | 6%   | 100%  |
-| Total | 18  |      |      |       |
+| Idade |  (f) | (fa) |   (fr) |  (fra) |
+| ----: | ---: | ---: | -----: | -----: |
+|     0 |    3 |    3 |  16,7% |  16,7% |
+|     1 |    6 |    9 |  33,4% |  50,1% |
+|     2 |    3 |   12 |  16,7% |  66,8% |
+|     3 |    3 |   15 |  16,7% |  83,5% |
+|     4 |    1 |   16 |   5,5% |  89,0% |
+|     5 |    1 |   17 |   5,5% |  94,5% |
+|     8 |    1 |   18 |   5,5% | 100,0% |
+| Total |   18 |      | 100,0% |        |
 
 ### Resolução do Exercício 2
 
