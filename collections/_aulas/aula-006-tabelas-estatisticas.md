@@ -2,7 +2,7 @@
 title: Aula 006
 description: Tabelas estatísticas
 permalink: aulas/aula-006
-videos:
+videos: 4blPmTVjq3U
 ---
 
 Ao organizar os dados da pesquisa, a primeira etapa é organizar um ROL.
